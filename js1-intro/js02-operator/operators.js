@@ -59,3 +59,15 @@ console.log(x - myNum); // 54. - operatöründe string değişkeni numbera çevi
 const yourNum = "one";
 console.log(x - yourNum); // NaN (Not a Number)
 //? String ifadeyi number a dönüştürmeye çalışıyor ama bu mümkün olmadığı için dönüştüremiyor ve bu nedenle işlemin sonucunu NaN döndürüyor.matematiksel olarak belirsiz veya tanımsız bir değeri temsil eder.
+
+//! * operatörü
+
+let carp1 = 7;
+let carp2 = 9;
+console.log(carp1 * carp2); // 63
+
+console.log("a" * "b"); // NaN
+console.log("a" * 3); // NaN
+
+console.log("5" * "9"); // 45. karakterler numeric ise numebr gibi davranarak işlemi gerçekleştiriyor.
+console.log(typeof ("5" * "9")); // number
