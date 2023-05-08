@@ -1,35 +1,35 @@
-// // * ===============================================
-// // *                  KARAR YAPILARI
-// // * ===============================================
+// * ===============================================
+// *                  KARAR YAPILARI
+// * ===============================================
 
 // console.log("****** CONDITIONS *******");
 
-// // const calismaSuresi = prompt("Calisma süresi:")
-// // let maas = prompt("Maasini giriniz:")
+// const calismaSuresi = prompt("Calisma süresi:")
+// let maas = prompt("Maasini giriniz:")
 
 // //? 2 kosullu
-// // if (calismaSuresi >= 10) {
-// //   // maas = Math.trunc(maas * 1.1)
-// //   maas = Math.round(maas * 1.1)
-// //   console.log("Zamli maasiniz:", maas)
-// //   console.log(`Zamli maasiniz: ${maas}`)
-// // } else {
-// //   console.log("Uzgunuz maasinaza zam yapamayirouz", maas)
-// // }
-// // console.log("Güle güle")
+// if (calismaSuresi >= 10) {
+// maas = Math.trunc(maas * 1.1)
+//   maas = Math.round(maas * 1.1)
+//   console.log("Zamli maasiniz:", maas)
+//   console.log(`Zamli maasiniz: ${maas}`)
+// } else {
+//   console.log("Uzgunuz maasinaza zam yapamayirouz", maas)
+// }
+// console.log("Güle güle")
 
 // //? Tek kosullu
-// // if (calismaSuresi >= 10) {
-// //   maas = Math.round(maas * 1.1)
-// //   console.log(`Zamli maasiniz: ${maas}`)
-// // }
-// // console.log("Güle güle")
+// if (calismaSuresi >= 10) {
+//   maas = Math.round(maas * 1.1)
+//   console.log(`Zamli maasiniz: ${maas}`)
+// }
+// console.log("Güle güle")
 
 // //? Cok kosullu
 // const grade = prompt("Please enter your grade:");
 
 // let result = null;
-// // let result = ""
+// let result = ""
 // if (grade < 0) {
 //   console.log("Grade can not be smaller than zero");
 // } else if (grade < 40) {
@@ -63,11 +63,11 @@
 
 // //* 1.YONTEM
 // //? nested if
-// // if (n1 > n2) {
-// //   if (n1 > n3) {
-// //     console.log("Biggest:", n1)
-// //   }
-// // }
+// if (n1 > n2) {
+//   if (n1 > n3) {
+//     console.log("Biggest:", n1)
+//   }
+// }
 
 // //? kosullarin logical operatorler yardimiyla birleştirilmesi
 // if (n1 >= n2 && n1 >= n3) {
@@ -85,9 +85,9 @@
 //   biggest = n2;
 // }
 // if (n3 >= biggest) {
-// //   biggest = n3;
-// // }
-// // console.log(`${biggest} is biggest`);
+//   biggest = n3;
+// }
+// console.log(`${biggest} is biggest`);
 
 // //? Ternary   tek satirlik islemler icin tercih ediliyor.
 
@@ -99,18 +99,33 @@
 //? kosul - sonra ? sonra durum 1 -sonra durum 2
 //? tek durumlu kosullandirmada mecburen else yapisi (: ve sonrasi kullanilmak zorundadir.)
 
-const speed = 110;
+// const speed = 110;
 
-speed > 120
-  ? console.log("Speedy")
-  : speed >= 90
-  ? console.log("Normal")
-  : console.log("Low Speed");
+// speed > 120
+//   ? console.log("Speedy")
+//   : speed >= 90
+//   ? console.log("Normal")
+//   : console.log("Low Speed");
 
-if (speed > 120) {
-  console.log("Speedy");
-} else if (speed >= 90) {
-  console.log("normal");
-} else {
-  console.log(" Low Speed");
-}
+// if (speed > 120) {
+//   console.log("Speedy");
+// } else if (speed >= 90) {
+//   console.log("normal");
+// } else {
+//   console.log(" Low Speed");
+// }
+
+//? Short Circuit
+
+const age = 15;
+let decription = "";
+// if (age >= 18) {
+//   decription = "Adult";
+// }
+//? ternary
+// decription = age >= 18 ? "Adult" : "";
+//? short - circuit
+
+decription = age >= 18 && "Adult";
+
+console.log(decription);
