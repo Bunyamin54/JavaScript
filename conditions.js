@@ -106,3 +106,11 @@ speed > 120
   : speed >= 90
   ? console.log("Normal")
   : console.log("Low Speed");
+
+if (speed > 120) {
+  console.log("Speedy");
+} else if (speed >= 90) {
+  console.log("normal");
+} else {
+  console.log(" Low Speed");
+}
