@@ -32,3 +32,5 @@ if (grade < 40) {
 } else {
     result = "AA"
 }
+
+console.log('Your score:${result}');
