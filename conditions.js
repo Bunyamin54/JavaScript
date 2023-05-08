@@ -11,6 +11,7 @@ if (calismaSuresi >= 10) {
   maas = maas * 1.1;
   console.log("Zamli maasiniz", maas);
 } else {
-  console.log("Uzgunuz maasiniza zam yapamiyoruz." maas);
+  S;
+  console.log("Uzgunuz maasiniza zam yapamiyoruz.", maas);
 }
 console.log("Gule gule");
