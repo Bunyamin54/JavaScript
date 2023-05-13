@@ -42,3 +42,15 @@ function calculate(name, yob) {
 console.log(calculate("Ahmet", 1990));
 calculate("Suleyman", 1980);
 //! new Date - sistem tarihi ve saatini verir.
+
+//* ornek 3
+
+function add(num1, num2) {
+  const sum = num1 + num2;
+  return sum;
+}
+
+const result1 = add(3, 5);
+const result2 = add(5, 9);
+
+console.log(result1, result2);
