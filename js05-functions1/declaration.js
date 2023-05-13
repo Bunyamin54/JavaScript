@@ -17,10 +17,12 @@ yazdirMerhaba(); //!invoke call
 //*  ornek  parametre
 //* js de camelCase kullanilir.
 //! argument veya parameter listesi parameterin bir siniri yok.cok uzun olmasi kullanisligini azaltir fonksiyonun.
-function yazdirParametre(message, name) {
+function yazdirParametre(message, name = "cohort14") {
   console.log(message, name);
 }
 
 yazdirParametre("Hei", "FS15");
 yazdirParametre("Salut", "FS16");
 yazdirParametre("Kalimera", "FS17");
+yazdirParametre("Selam");
+yazdirParametre("Hei Hei");
