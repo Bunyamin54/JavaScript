@@ -26,3 +26,14 @@ yazdirParametre("Salut", "FS16");
 yazdirParametre("Kalimera", "FS17");
 yazdirParametre("Selam");
 yazdirParametre("Hei Hei");
+
+//*ornek2
+
+function calculate(name, yob) {
+  const age = 2023 - yob;
+  console.log(`${name} is ${age} years old`);
+}
+
+calculate("Ahmet", 1990);
+calculate("Suleyman", 1980);
+//! new Date - sistem tarihi ve saatini verir.
