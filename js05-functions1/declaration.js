@@ -54,3 +54,16 @@ const result1 = add(3, 5);
 const result2 = add(5, 9);
 
 console.log(result1, result2);
+
+function isEvenOrOdd(num) {
+  if (num % 2 === 0) {
+    return "EVEN";
+  } else {
+    return "ODD";
+  }
+}
+
+const num = prompt("Please enter a number:");
+
+isEvenOrOdd(num);
+console.log(`${num} is ${isEvenOrOdd(num)}`);
