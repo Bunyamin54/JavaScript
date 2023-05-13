@@ -23,4 +23,4 @@ function yazdirParametre(message, name) {
 
 yazdirParametre("Hei", "FS15");
 yazdirParametre("Salut", "FS16");
-yazdirParametre("Halo", "FS17");
+yazdirParametre("Kalimera", "FS17");
