@@ -32,8 +32,13 @@ yazdirParametre("Hei Hei");
 function calculate(name, yob) {
   const age = 2023 - yob;
   console.log(`${name} is ${age} years old`);
+  return age;
+
+  //! hersey btince return yapilir. return break gibi davranir
+  //* return alt programdan ana programa paket gonderiyoruz.
+  //? new Date (). getFullYear()
 }
 
-calculate("Ahmet", 1990);
+console.log(calculate("Ahmet", 1990));
 calculate("Suleyman", 1980);
 //! new Date - sistem tarihi ve saatini verir.
