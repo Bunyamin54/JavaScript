@@ -87,3 +87,55 @@
 //* console.log('Merhaba ' + isim)
 
 //!includes
+//includes
+
+// let str1 = "Clarusway";
+
+// console.log(str1.includes('l'))
+// console.log(str1.includes('l',1)) //1.indexten aramaya başla
+// console.log(str1.includes('l',2)) //2. indexten aramaya başla
+
+//indexof
+// let str1 = "Clarusway";
+
+// console.log(str1.indexOf('a')) //2
+// console.log(str1.indexOf('a',3)) //7
+// console.log(str1.indexOf('l',3)) // -1 İçerisinde bulunamadı
+
+//örnek
+
+// let email=prompt("email giriniz")
+// console.log(email.includes("@"));
+
+// let email = prompt("Enter your email")
+
+// if (email.indexOf("@") === -1) {
+//   console.log("Invalid email")
+// } else{
+//     console.log('Valid email')
+// }
+
+// function findCount(source, search) {
+//     let count = 0; // counter will start from 0
+//     let position = source.indexOf(search) // first search
+
+//     while (position !== -1) {// as long as we find search string, loop will go on
+//       count++ // increase the counter
+//       position = source.indexOf(search, ++position) // search again, from where we stop +1
+//     }
+//     return count
+//   }
+
+//   let str = 'You do not know what you do not know until you know.';
+//   console.log (findCount(str, "know")); // 3
+
+//lastIndexof
+
+// let str = "Hello John, welcome to Clarusway.";
+
+// console.log(str.lastIndexOf("o")); // 21
+
+// console.log(str.lastIndexOf("o", 6));// 4
+// console.log(str.lastIndexOf("O", 6));// -1
+
+// console.log(str.indexOf("o"));// 4
