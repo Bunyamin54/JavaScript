@@ -45,7 +45,7 @@
 // 2-Kayıt
 // 3-pre-class`)
 
-//slice
+//!slice
 
 // let str1 = "Clarusway";
 // let str2 = str1.slice(-3);
@@ -53,7 +53,7 @@
 // console.log(str2)
 // console.log(str1.slice(-9,-3))
 
-//substring
+//!substring
 // let str= "Orange";
 // console.log(str.substring(0,4))
 // console.log(str.substring(4,0))
@@ -66,24 +66,24 @@
 // let str2 = str.substring(0,4);
 // console.log(str2)
 
-//concat
+//!concat
 
-// let str1 = "Clarusway";
-// let str2 = "Full";
-// let str3 = "Stack";
-// const result = str1.concat(" ", str2, " ", str3)
-// console.log(result)
-// console.log(str3)
+//* let str1 = "Clarusway";
+//* let str2 = "Full";
+//* let str3 = "Stack";
+// *const result = str1.concat(" ", str2, " ", str3)
+//* console.log(result)
+//* console.log(str3)
 
-// let greet = 'Hello'
+//* let greet = 'Hello'
 
-// console.log(greet.concat(' World'))
-// console.log('Hello'.concat(' World'))
+//* console.log(greet.concat(' World'))
+//* console.log('Hello'.concat(' World'))
 
-// let isim = prompt('İsminiz nedir?')
+//*let isim = prompt('İsminiz nedir?')
 
-// console.log('Merhaba '.concat(isim))
+//* console.log('Merhaba '.concat(isim))
 
-// console.log('Merhaba ' + isim)
+//* console.log('Merhaba ' + isim)
 
-//includes
+//!includes
