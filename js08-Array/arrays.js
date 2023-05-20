@@ -34,12 +34,31 @@
 
 // let c = "Pink";
 // colors[4] = c;
-// console.log(colors);
-//! istenmeyen yontem koseli kullnmak burda ekleme cikarma islemlerini methodlar ile yapmak onemlidir.
-const colors = ["Red", "Green", "Yellow"];
-colors[6] = 2;
-console.log(colors.length);
-console.log(colors[3]);
+// // console.log(colors);
+// //! istenmeyen yontem koseli kullnmak burda ekleme cikarma islemlerini methodlar ile yapmak onemlidir.
+// // const colors = ["Red", "Green", "Yellow"];
+// // colors[6] = 2;
+// // console.log(colors.length);
+// // console.log(colors[3]);
 
-colors[100] = "pink";
-console.log(colors);
+// // colors[100] = "pink";
+// // console.log(colors);
+// //* primitivler
+// let a = 5;
+// let b = a;
+// console.log(a);
+// console.log(b);
+// a = 6;
+// console.log(b);
+
+//! non-primitivler
+
+let arr1 = [1, 2, "three", false];
+const arr2 = arr1;
+
+console.log(arr1);
+console.log(arr2);
+
+arr1[0] = 0;
+console.log(arr1);
+console.log(arr2);
