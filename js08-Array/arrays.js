@@ -59,6 +59,15 @@ const arr2 = arr1;
 console.log(arr1);
 console.log(arr2);
 
-arr1[0] = 0;
-console.log(arr1);
-console.log(arr2);
+// arr1[0] = 0;
+// console.log(arr1);
+// console.log(arr2);
+
+const c = [];
+console.log(c);
+console.log(Boolean(c));
+
+const d = [];
+console.log(c == d); //* false cunku referans farkli
+
+console.log(arr1 == arr2); //? true cunku adresler ayni
