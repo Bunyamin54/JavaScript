@@ -197,3 +197,5 @@
 
 // console.log(arr.join("-")); // C-l-a-r-u-s-w-a-y
 // console.log(arr);
+
+//! sort() method onemli stringe gore calsiyor.
