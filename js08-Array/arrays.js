@@ -79,7 +79,7 @@
 //* Array methods
 // ! slice
 
-const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
 
 // const cls = colors.slice();
 
@@ -96,25 +96,47 @@ const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
 // console.log(colors.slice(8)); //* limit disi
 // console.log(colors.slice(-3, -1));
 
-//! push() metosu - dizinin sonuna yeni element ekler.
+// //! push() metosu - dizinin sonuna yeni element ekler.
 
-const arr = ["red", "blue"];
-console.log(arr.length); //* burda uzunluk 2
+// const arr = ["red", "blue"];
+// console.log(arr.length); //* burda uzunluk 2
 
-let c = "White";
-arr.push("orange", 2023, c); //! yeni rengi ekledi.
+// let c = "White";
+// arr.push("orange", 2023, c); //! yeni rengi ekledi.
 
-console.log(arr.length); // ? lengt ozelligi uzunlugu bize verir.
-arr.push(2023); //* bu sekilde de olur
-console.log(arr);
+// console.log(arr.length); // ? lengt ozelligi uzunlugu bize verir.
+// arr.push(2023); //* bu sekilde de olur
+// console.log(arr);
 
-const car = ["Audi", "Bmw"];
+// const car = ["Audi", "Bmw"];
 
-const car2 = ["Ford", "Tesla"];
+// const car2 = ["Ford", "Tesla"];
 
-car.push(car2);
-car.push(...car2);
+// car.push(car2);
+// car.push(...car2);
 
-console.log(car[2][1]); //* birden fazla ic ice methodlar
+// console.log(car[2][1]); //* birden fazla ic ice methodlar
 
-//? pop() methodu
+// //? pop() methodu  - icersindeki elemani siler sildigini dondurur.
+
+// const car = ["Audi", "Bmw"];
+
+// console.log(car.pop());
+
+// const silinen = car.pop();
+// console.log(silinen);
+
+// console.log(car.pop());
+
+//? unsshift() method ekleme methodu ilk siraya ekler son uzunlugu dondurur
+
+// const car = ["Audi", "Bmw"];
+
+// car.unshift("ford", "tesla"); //! yeni eklenen arrayi ilk baslangic satira ekler. uzunluguda goruruz.
+// console.log(car);
+
+// const colors = ["green", "blue"];
+
+// console.log(colors.unshift("yellow", "purpel"));
+
+// console.log(colors);
