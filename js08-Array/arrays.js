@@ -35,7 +35,11 @@
 // let c = "Pink";
 // colors[4] = c;
 // console.log(colors);
-
+//! istenmeyen yontem koseli kullnmak burda ekleme cikarma islemlerini methodlar ile yapmak onemlidir.
 const colors = ["Red", "Green", "Yellow"];
 colors[6] = 2;
 console.log(colors.length);
+console.log(colors[3]);
+
+colors[100] = "pink";
+console.log(colors);
