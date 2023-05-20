@@ -186,3 +186,14 @@
 // ! indexOf() and lastIndexOf()
 
 //* reverse() method // orginal array i degistirir
+
+//* join method // stringleri  orjinal array bozulmaz. array i stringe cevirir.
+
+// const arr = ["C", "l", "a", "r", "u", "s", "w", "a", "y"];
+
+// console.log(arr.join()); // C,l,a,r,u,s,w,a,y
+
+// console.log(arr.join("")); // Clarusway
+
+// console.log(arr.join("-")); // C-l-a-r-u-s-w-a-y
+// console.log(arr);
