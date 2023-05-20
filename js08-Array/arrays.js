@@ -141,7 +141,7 @@
 
 // console.log(colors);
 
-//?shift() methodu sadece basdakini siler
-const colors = ["green", "blue"];
-console.log(colors.shift()); //* ilk elemani siler sildigi degeri dondurur.
-console.log(colors);
+// //?shift() methodu sadece basdakini siler
+// const colors = ["green", "blue"];
+// console.log(colors.shift()); //* ilk elemani siler sildigi degeri dondurur.
+// console.log(colors);
