@@ -183,4 +183,6 @@
 // color1 = color1.concat(color2, "black", 2);
 // console.log(color1);
 
-indexOf() and lastIndexOf()
+// ! indexOf() and lastIndexOf()
+
+//* reverse() method // orginal array i degistirir
