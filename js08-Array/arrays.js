@@ -148,19 +148,37 @@
 
 // *splice() methodu   ekleme-silme-degistirme yapabiliyoruz.
 
-const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
 
 // console.log(colors.splice(2, 1)); //*2. indexe git 1 eleman sil
 // console.log(colors); //* iki parametre alir
 // console.log(colors.splice(2));
 // console.log(colors);
 
-//*element ekleme
+// //*element ekleme
 
 // console.log(colors.splice(2, 0, "white", "pink")); //* 2. index git sifir 0 eleman sil white ekle. silmedigi icin bos array doner sonuc
 
 // console.log(colors);
 
-//* element degistirme
-console.log(colors.splice(3, 2, "black", "pink")); //* 3 e git 2 eleman sil yerine yeni elemanlari ekle silinenler array olarak doner
-console.log(colors);
+// //* element degistirme
+// console.log(colors.splice(3, 2, "black", "pink")); //* 3 e git 2 eleman sil yerine yeni elemanlari ekle silinenler array olarak doner
+// console.log(colors);
+
+// const arr1 = ["red", "blue", "purple"];
+// const removed = arr1.splice(0, 0, "yellow");
+// console.log(arr1);
+// console.log(removed);
+
+//! concat() method
+let color1 = ["red", "green"];
+const color2 = ["blue", "orange"];
+const color3 = [10, true];
+// const joinedArray = color1.concat(color2, color3);
+
+// const destr = color1.push(...color2, ...color3); //! ... nokta kullanilarak eklenir toplama islemi gibi dusunulebilir.
+// console.log(destr);
+// console.log(color1);
+
+color1 = color1.concat(color2, "black", 2);
+console.log(color1);
