@@ -34,15 +34,15 @@
 
 // let c = "Pink";
 // colors[4] = c;
-// // console.log(colors);
-// //! istenmeyen yontem koseli kullnmak burda ekleme cikarma islemlerini methodlar ile yapmak onemlidir.
-// // const colors = ["Red", "Green", "Yellow"];
-// // colors[6] = 2;
-// // console.log(colors.length);
-// // console.log(colors[3]);
+// console.log(colors);
+//! istenmeyen yontem koseli kullnmak burda ekleme cikarma islemlerini methodlar ile yapmak onemlidir.
+// const colors = ["Red", "Green", "Yellow"];
+// colors[6] = 2;
+// console.log(colors.length);
+// console.log(colors[3]);
 
-// // colors[100] = "pink";
-// // console.log(colors);
+// colors[100] = "pink";
+// console.log(colors);
 // //* primitivler
 // let a = 5;
 // let b = a;
@@ -212,13 +212,13 @@
 //? Nested Arrays
 const arr = [1, true, [3, "Red", 5], [6, 7, 8]];
 
-console.log(arr.length);
-console.log(arr[0]); // 1
+// console.log(arr.length);
+// console.log(arr[0]); // 1
 
-console.log(arr[2]); // [3, 'Red', 5]
+// console.log(arr[2]); // [3, 'Red', 5]
 
-console.log(arr[2][0]); // 3
-console.log(arr[2][1]); // Red
-console.log(arr[2][2]); // 5
+// console.log(arr[2][0]); // 3
+// console.log(arr[2][1]); // Red
+// console.log(arr[2][2]); // 5
 
-console.log(arr[3]); // [ 6, 7, 8 ]
+// console.log(arr[3]); // [ 6, 7, 8 ]
