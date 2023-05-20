@@ -25,6 +25,7 @@ console.log(str[0]);
 str[0] = "b";
 console.log(str); //* imuttubale oldugu icin kale almadi
 
+//* Array ile mutable yapabilir degistirebilirz
 const colors = ["Red", "Green", "Yellow"];
 colors[1] = "black";
 console.log(colors);
