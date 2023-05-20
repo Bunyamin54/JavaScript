@@ -53,21 +53,57 @@
 
 //! non-primitivler
 
-let arr1 = [1, 2, "three", false];
-const arr2 = arr1;
+// let arr1 = [1, 2, "three", false];
+// const arr2 = arr1;
 
-console.log(arr1);
-console.log(arr2);
+// console.log(arr1);
+// console.log(arr2);
 
 // arr1[0] = 0;
 // console.log(arr1);
 // console.log(arr2);
 
-const c = [];
-console.log(c);
-console.log(Boolean(c));
+// const c = [];
+// console.log(c);
+// console.log(Boolean(c));
 
-const d = [];
-console.log(c == d); //* false cunku referans farkli
+// const d = [];
+// console.log(c == d); //* false cunku referans farkli
 
-console.log(arr1 == arr2); //? true cunku adresler ayni
+// console.log(arr1 == arr2); //? true cunku adresler ayni
+
+// arr1 = ["four"];
+
+// arr2 = ["four"];
+
+//* Array methods
+// ! slice
+
+const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+
+// const cls = colors.slice();
+
+// console.log(colors);
+// console.log(cls);
+
+// colors[0] = "black";
+// console.log(colors);
+// console.log(cls);
+
+// console.log(colors.slice(2, 4)); //* blue , yellow
+// console.log(colors.slice(-2));
+// console.log(colors.slice(2));
+// console.log(colors.slice(8)); //* limit disi
+// console.log(colors.slice(-3, -1));
+
+//! push() metosu - dizinin sonuna yeni element ekler.
+
+const arr = ["red", "blue"];
+console.log(arr.length); //* burda uzunluk 2
+
+let c = "White";
+arr.push("orange", 2023, c); //! yeni rengi ekledi.
+
+console.log(arr.length); // ? lengt ozelligi uzunlugu bize verir.
+arr.push(2023); //* bu sekilde de olur
+console.log(arr);
