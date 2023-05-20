@@ -107,3 +107,12 @@ arr.push("orange", 2023, c); //! yeni rengi ekledi.
 console.log(arr.length); // ? lengt ozelligi uzunlugu bize verir.
 arr.push(2023); //* bu sekilde de olur
 console.log(arr);
+
+const car = ["Audi", "Bmw"];
+
+const car2 = ["Ford", "Tesla"];
+
+car.push(car2);
+car.push(...car2);
+
+console.log(car);
