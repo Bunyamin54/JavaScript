@@ -202,7 +202,13 @@
 //* a-b veya b-a formulunu koyarsak ona gore siralar.
 
 //* includes() methods  var mi yok mu ?
+// const arr = [ 'red', 'blue', 'Purple', "white", "orange" ]
 
+// console.log(arr.includes('blue')) // true
+
+// console.log(arr.includes('Blue')) // false
+
+// console.log(arr.includes('blue', 2)) // false */
 //? Nested Arrays
 const arr = [1, true, [3, "Red", 5], [6, 7, 8]];
 
