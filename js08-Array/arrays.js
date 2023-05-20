@@ -199,3 +199,6 @@
 // console.log(arr);
 
 //! sort() method onemli stringe gore calsiyor.
+//* a-b veya b-a formulunu koyarsak ona gore siralar.
+
+//* includes() methods
