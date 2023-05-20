@@ -145,3 +145,22 @@
 // const colors = ["green", "blue"];
 // console.log(colors.shift()); //* ilk elemani siler sildigi degeri dondurur.
 // console.log(colors);
+
+// *splice() methodu   ekleme-silme-degistirme yapabiliyoruz.
+
+const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+
+// console.log(colors.splice(2, 1)); //*2. indexe git 1 eleman sil
+// console.log(colors); //* iki parametre alir
+// console.log(colors.splice(2));
+// console.log(colors);
+
+//*element ekleme
+
+// console.log(colors.splice(2, 0, "white", "pink")); //* 2. index git sifir 0 eleman sil white ekle. silmedigi icin bos array doner sonuc
+
+// console.log(colors);
+
+//* element degistirme
+console.log(colors.splice(3, 2, "black", "pink")); //* 3 e git 2 eleman sil yerine yeni elemanlari ekle silinenler array olarak doner
+console.log(colors);
