@@ -19,19 +19,23 @@
 
 // const variables = "1";
 // console.log(Array.isArray(1));
-//?String immutable - degistirilemez
-let str = "Brown";
-console.log(str[0]);
-str[0] = "b";
-console.log(str); //* imuttubale oldugu icin kale almadi
+// //?String immutable - degistirilemez
+// let str = "Brown";
+// console.log(str[0]);
+// str[0] = "b";
+// console.log(str); //* imuttubale oldugu icin kale almadi
 
-//* Array ile mutable yapabilir degistirebilirz
+// //* Array ile mutable yapabilir degistirebilirz
+// const colors = ["Red", "Green", "Yellow"];
+// colors[1] = "black";
+// console.log(colors);
+// colors[3] = "White";
+// console.log(colors);
+
+// let c = "Pink";
+// colors[4] = c;
+// console.log(colors);
+
 const colors = ["Red", "Green", "Yellow"];
-colors[1] = "black";
-console.log(colors);
-colors[3] = "White";
-console.log(colors);
-
-let c = "Pink";
-colors[4] = c;
-console.log(colors);
+colors[6] = 2;
+console.log(colors.length);
