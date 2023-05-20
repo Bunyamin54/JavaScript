@@ -115,4 +115,6 @@ const car2 = ["Ford", "Tesla"];
 car.push(car2);
 car.push(...car2);
 
-console.log(car);
+console.log(car[2][1]); //* birden fazla ic ice methodlar
+
+//? pop() methodu
