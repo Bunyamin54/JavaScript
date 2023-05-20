@@ -170,15 +170,17 @@
 // console.log(arr1);
 // console.log(removed);
 
-//! concat() method
-let color1 = ["red", "green"];
-const color2 = ["blue", "orange"];
-const color3 = [10, true];
+//! concat() method  - ilave etme method
+// let color1 = ["red", "green"];
+// const color2 = ["blue", "orange"];
+// const color3 = [10, true];
 // const joinedArray = color1.concat(color2, color3);
 
 // const destr = color1.push(...color2, ...color3); //! ... nokta kullanilarak eklenir toplama islemi gibi dusunulebilir.
 // console.log(destr);
 // console.log(color1);
 
-color1 = color1.concat(color2, "black", 2);
-console.log(color1);
+// color1 = color1.concat(color2, "black", 2);
+// console.log(color1);
+
+indexOf() and lastIndexOf()
