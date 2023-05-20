@@ -201,4 +201,18 @@
 //! sort() method onemli stringe gore calsiyor.
 //* a-b veya b-a formulunu koyarsak ona gore siralar.
 
-//* includes() methods
+//* includes() methods  var mi yok mu ?
+
+//? Nested Arrays
+const arr = [1, true, [3, "Red", 5], [6, 7, 8]];
+
+console.log(arr.length);
+console.log(arr[0]); // 1
+
+console.log(arr[2]); // [3, 'Red', 5]
+
+console.log(arr[2][0]); // 3
+console.log(arr[2][1]); // Red
+console.log(arr[2][2]); // 5
+
+console.log(arr[3]); // [ 6, 7, 8 ]
