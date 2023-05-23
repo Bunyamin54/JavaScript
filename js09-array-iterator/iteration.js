@@ -28,10 +28,10 @@ console.log("****** ITERATION **********");
 
 // //* FOREACH
 
-const prices = [250, 150, 300, 500];
-let sum = 0;
-prices.forEach((price) => (sum += price));
-console.log("SUM", sum);
+// const prices = [250, 150, 300, 500];
+// let sum = 0;
+// prices.forEach((price) => (sum += price));
+// console.log("SUM", sum);
 
 // prices.forEach((p) => console.log(p));
 
