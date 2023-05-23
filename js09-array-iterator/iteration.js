@@ -78,14 +78,14 @@ console.log("****** ITERATION **********");
 // //? tlPrices dizisindeki rakamlarin Euro ve dolar
 // //? karsiliklarini hesaplatarak yeni dizelere kaydediniz
 
-const euro = 21.78;
-const dolar = 19.8;
-const tlPrices = [100, 150, 100, 50, 80];
+// const euro = 21.78;
+// const dolar = 19.8;
+// const tlPrices = [100, 150, 100, 50, 80];
 
-const dolarPrices = tlPrices.map((tl) => Number((tl / dolar).toFixed(2)));
-const euroPrices = tlPrices.map((tl) => Number((tl / euro).toFixed(2)));
-console.log(dolarPrices);
-console.log(euroPrices);
+// const dolarPrices = tlPrices.map((tl) => Number((tl / dolar).toFixed(2)));
+// const euroPrices = tlPrices.map((tl) => Number((tl / euro).toFixed(2)));
+// console.log(dolarPrices);
+// console.log(euroPrices);
 
 // const dolarPrices = tlPrices.map((tl) => Number((tl / dolar).toFixed(2)));
 // const euroPrices = tlPrices.map((tl) => Number((tl / euro).toFixed(2)));
@@ -98,8 +98,8 @@ console.log(euroPrices);
 // //*             FILTER METHOD
 // //* =======================================
 // //?-------------- ÖRNEK -------------------
-// //? Maasi 10000'den buyuk olanlari ayri bir diziye saklayalim
-// const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+//? Maasi 10000'den buyuk olanlari ayri bir diziye saklayalim
+const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
 
 // const biggerThan = salaries.filter((salary) => salary >= 10000);
 // console.log(biggerThan);
