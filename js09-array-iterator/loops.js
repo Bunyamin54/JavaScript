@@ -13,7 +13,8 @@ for (let i = 0; i < grades.length; i++) {
   sum += grades[i];
 }
 
-console.log("AVG", Math.round(sum / grades.length));
+console.log("AVG", (sum / grades.length).toFixed(2));
+//? toFixed 2 son iki degeri alir
 
 //! Math. round  sayiyi yuvarlar.
 // let sum = 0
