@@ -18,19 +18,24 @@ const grades = [55, 77, 23, 89, 100, 44, 33];
 //? toFixed 2 son iki degeri alir
 //! Math. round  sayiyi yuvarlar.
 
-const lessThan50 = [];
-const equalOrBiggerThan50 = [];
+// const lessThan50 = [];
+// const equalOrBiggerThan50 = [];
 
-for (let j = 0; j < grades.length; j++) {
-  if (grades[j] < 50) {
-    lessThan50.push(grades[j]);
-  } else {
-    equalOrBiggerThan50.push(grades[j]);
-  }
-}
-console.log(lessThan50);
-console.log(equalOrBiggerThan50);
-console.log(grades);
+// for (let j = 0; j < grades.length; j++) {
+//   if (grades[j] < 50) {
+//     lessThan50.push(grades[j]);
+//   } else {
+//     equalOrBiggerThan50.push(grades[j]);
+//   }
+// }
+//! lessThan methodu kucukse rakamdan
+//* equalOrBiggerThan methodu esit veya buyukse
+//*ekleme methodu push ile yapilir
+
+//!
+// console.log(lessThan50);
+// console.log(equalOrBiggerThan50);
+// console.log(grades);
 // let sum = 0
 // for (let i = 0; i < grades.length; i++) {
 //   sum += grades[i]
