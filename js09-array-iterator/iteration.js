@@ -9,8 +9,9 @@ console.log("****** ITERATION **********");
 
 const prices = [250, 150, 300, 500];
 
-prices.forEach( (p) => console.log(p);)
+for (let i = 0; i < prices.length; i++) console.log(i);
 
+// prices.forEach((p) => console.log(p));
 
 // //* KLASIK FOR
 // for (let i = 0; i < prices.length; i++) {
