@@ -43,11 +43,11 @@ const grades = [55, 77, 23, 89, 100, 44, 33];
 const lessThan50 = [];
 const equalOrBiggerThan50 = [];
 
-for (let i in grades) {
-  grades[i] < 50
-    ? lessThan50.push(grades[i])
-    : equalOrBiggerThan50.push(grades[i]);
-}
+// for (let i in grades) {
+//   grades[i] < 50
+//     ? lessThan50.push(grades[i])
+//     : equalOrBiggerThan50.push(grades[i]);
+// }
 
 console.log(lessThan50);
 console.log(equalOrBiggerThan50);
