@@ -77,22 +77,22 @@ console.log("**** LOOPS IN ARRAYS ***");
 // console.log(lessThan50);
 // console.log(equalOrBiggerThan50);
 // console.log(grades);
-//* for of loop
-const students = ["ahmet", "mehmet", "ismet", "saffet", "ahmet", "saffet"];
+// //* for of loop
+// const students = ["ahmet", "mehmet", "ismet", "saffet", "ahmet", "saffet"];
 
-const findStudent = (name) => {
-  let counter = 0;
+// const findStudent = (name) => {
+//   let counter = 0;
 
-  for (let student of students) {
-    student === name.toLowerCase() && counter++; //* aranan, dizinin icindeki elemana esitse
-  }
+//   for (let student of students) {
+//     student === name.toLowerCase() && counter++; //* aranan, dizinin icindeki elemana esitse
+//   }
 
-  return counter === 0
-    ? `${name} can not be found`
-    : `${name} found ${counter} times`;
-};
+//   return counter === 0
+//     ? `${name} can not be found`
+//     : `${name} found ${counter} times`;
+// };
 
-console.log(findStudent("Ahmet"));
-console.log(findStudent("AHMET"));
-console.log(findStudent("ismet"));
-console.log(findStudent("Alihan"));
+// console.log(findStudent("Ahmet"));
+// console.log(findStudent("AHMET"));
+// console.log(findStudent("ismet"));
+// console.log(findStudent("Alihan"));
