@@ -45,7 +45,7 @@ console.log("SUM", sum);
 // console.log("SUM:", sum);
 
 // console.log("*********");
-// //! NOT: forEach metodu void metottur.(Herhangi bir deger dondurmez)
+// //! NOT: forEach metodu void(bos metod) return yoktur.  metottur.(Herhangi bir deger dondurmez)
 // console.log(prices.forEach((price) => price * 2));
 
 // //* Foreach ile dongu icerisinde herhangi bir item okunabilir, listelenbilir veya yazdirilabilir. Ancak bu degeri dondurmek mümkün değildir.
