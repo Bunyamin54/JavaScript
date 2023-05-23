@@ -113,11 +113,11 @@ const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
 // //? Maasi 9000'den az olanlara %10 zam yaparak bu degerleri
 // //? yeni diziye saklayalim.
 
-// const biggerThan9000 = salaries
-//   .filter((s) => s < 9000)
-//   .map((s) => Number((s * 1.1).toFixed(2)));
+const biggerThan9000 = salaries
+  .filter((s) => s < 9000)
+  .map((s) => Number((s * 1.1).toFixed(2)));
 
-// console.log(biggerThan9000);
+console.log(biggerThan9000);
 
 // salaries
 //   .filter((s) => s < 9000)
