@@ -91,6 +91,7 @@ const findStudent = (name) => {
   }
 
   return counter;
+  student === name && counter++;
 };
 
 console.log(findStudent("ahmet"));
