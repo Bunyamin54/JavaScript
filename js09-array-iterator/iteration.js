@@ -54,10 +54,15 @@ console.log("****** ITERATION **********");
 // //* =======================================
 // //*            MAP METHOD
 // //* =======================================
+//? map methodu transarmosyon yapar. hersey
 // //?-------------- ÖRNEK -------------------
 // //? Bir dizideki tüm isimleri BÜYÜK harfe dönüştüren uygulamayı yazınız.
-// let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
+let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
 
+const upperName = names.map((name) => name.toLocaleUpperCase());
+
+console.log(upperName);
+console.log(names);
 // const upperName = names.map((name) => name.toLocaleUpperCase());
 // console.log(upperName);
 // console.log(names);
