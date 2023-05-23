@@ -57,12 +57,12 @@ console.log("****** ITERATION **********");
 //? map methodu transarmosyon yapar. hersey
 // //?-------------- ÖRNEK -------------------
 // //? Bir dizideki tüm isimleri BÜYÜK harfe dönüştüren uygulamayı yazınız.
-let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
+// let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
 
-const upperName = names.map((name) => name.toLocaleUpperCase());
+// const upperName = names.map((name) => name.toLocaleUpperCase());
 
-console.log(upperName);
-console.log(names);
+// console.log(upperName);
+// console.log(names);
 // const upperName = names.map((name) => name.toLocaleUpperCase());
 // console.log(upperName);
 // console.log(names);
@@ -78,9 +78,14 @@ console.log(names);
 // //? tlPrices dizisindeki rakamlarin Euro ve dolar
 // //? karsiliklarini hesaplatarak yeni dizelere kaydediniz
 
-// const euro = 21.78;
-// const dolar = 19.8;
-// const tlPrices = [100, 150, 100, 50, 80];
+const euro = 21.78;
+const dolar = 19.8;
+const tlPrices = [100, 150, 100, 50, 80];
+
+const dolarPrices = tlPrices.map((tl) => Number((tl / dolar).toFixed(2)));
+const euroPrices = tlPrices.map((tl) => Number((tl / euro).toFixed(2)));
+console.log(dolarPrices);
+console.log(euroPrices);
 
 // const dolarPrices = tlPrices.map((tl) => Number((tl / dolar).toFixed(2)));
 // const euroPrices = tlPrices.map((tl) => Number((tl / euro).toFixed(2)));
