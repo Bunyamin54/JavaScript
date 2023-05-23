@@ -39,9 +39,9 @@ console.log("**** LOOPS IN ARRAYS ***");
 
 //? for in dongusu
 
-const grades = [55, 77, 23, 89, 100, 44, 33];
-const lessThan50 = [];
-const equalOrBiggerThan50 = [];
+// const grades = [55, 77, 23, 89, 100, 44, 33];
+// const lessThan50 = [];
+// const equalOrBiggerThan50 = [];
 
 // for (let i in grades) {
 //   grades[i] < 50
@@ -49,9 +49,9 @@ const equalOrBiggerThan50 = [];
 //     : equalOrBiggerThan50.push(grades[i]);
 // }
 
-console.log(lessThan50);
-console.log(equalOrBiggerThan50);
-console.log(grades);
+// console.log(lessThan50);
+// console.log(equalOrBiggerThan50);
+// console.log(grades);
 
 // let sum = 0
 // for (let i = 0; i < grades.length; i++) {
@@ -77,3 +77,22 @@ console.log(grades);
 // console.log(lessThan50);
 // console.log(equalOrBiggerThan50);
 // console.log(grades);
+//* for of loop
+const students = ["ahmet", "mehmet", "saffet", "ismet", "ahmet", "saffet"];
+
+const findStudent = (name) => {
+  let counter = 0;
+
+  for (let student of students) {
+    if (student === name) {
+      //* aranan dizinin icindeki elemana esitse sayaci bir artir
+      counter++;
+    }
+  }
+
+  return counter;
+};
+
+console.log(findStudent("ahmet"));
+console.log(findStudent("ismet"));
+console.log(findStudent("alihan"));
