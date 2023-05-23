@@ -15,9 +15,9 @@ console.log("****** ITERATION **********");
 
 // for (let i = 0; i < byer.length; i++) console.log(byer[i]);
 
-const rukiye = ["ask", "sevgi", "anlayis", "intelligent", "elegant", "kaymak"];
+// const rukiye = ["ask", "sevgi", "anlayis", "intelligent", "elegant", "kaymak"];
 
-for (let i = 0; i < rukiye.length; i++) console.log(rukiye[i]);
+// for (let i = 0; i < rukiye.length; i++) console.log(rukiye[i]);
 // prices.forEach((p) => console.log(p));
 
 // //* KLASIK FOR
@@ -27,6 +27,12 @@ for (let i = 0; i < rukiye.length; i++) console.log(rukiye[i]);
 // console.log("*********");
 
 // //* FOREACH
+
+const prices = [250, 150, 300, 500];
+let sum = 0;
+prices.forEach((price) => (sum += price));
+console.log("SUM", sum);
+
 // prices.forEach((p) => console.log(p));
 
 // console.log("*********");
