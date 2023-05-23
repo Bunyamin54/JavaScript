@@ -6,32 +6,36 @@ console.log("****** ITERATION **********");
 
 //?-------------- ÖRNEK -------------------
 //?  Dizideki herbir fiyati konsola bastiriniz.
+
 const prices = [250, 150, 300, 500];
 
-//* KLASIK FOR
-for (let i = 0; i < prices.length; i++) {
-  console.log(prices[i]);
-}
-console.log("*********");
+prices.forEach( (p) => console.log(p);)
 
-//* FOREACH
-prices.forEach((p) => console.log(p));
 
-console.log("*********");
-prices.forEach((p, i) => console.log("DEGER:", p, "INDIS:", i));
+// //* KLASIK FOR
+// for (let i = 0; i < prices.length; i++) {
+//   console.log(prices[i]);
+// }
+// console.log("*********");
 
-//?-------------- ÖRNEK -------------------
-//?  Dizideki toplam fiyati hesaplayalim.
-let sum = 0;
-prices.forEach((price) => (sum += price));
-console.log("SUM:", sum);
+// //* FOREACH
+// prices.forEach((p) => console.log(p));
 
-console.log("*********");
-//! NOT: forEach metodu void metottur.(Herhangi bir deger dondurmez)
-console.log(prices.forEach((price) => price * 2));
+// console.log("*********");
+// prices.forEach((p, i) => console.log("DEGER:", p, "INDIS:", i));
 
-//* Foreach ile dongu icerisinde herhangi bir item okunabilir, listelenbilir veya yazdirilabilir. Ancak bu degeri dondurmek mümkün değildir.
-prices.forEach((price) => console.log(price * 2));
+// //?-------------- ÖRNEK -------------------
+// //?  Dizideki toplam fiyati hesaplayalim.
+// let sum = 0;
+// prices.forEach((price) => (sum += price));
+// console.log("SUM:", sum);
+
+// console.log("*********");
+// //! NOT: forEach metodu void metottur.(Herhangi bir deger dondurmez)
+// console.log(prices.forEach((price) => price * 2));
+
+// //* Foreach ile dongu icerisinde herhangi bir item okunabilir, listelenbilir veya yazdirilabilir. Ancak bu degeri dondurmek mümkün değildir.
+// prices.forEach((price) => console.log(price * 2));
 
 // //* =======================================
 // //*            MAP METHOD
