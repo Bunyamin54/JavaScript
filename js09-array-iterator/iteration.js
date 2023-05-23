@@ -7,10 +7,17 @@ console.log("****** ITERATION **********");
 //?-------------- ÖRNEK -------------------
 //?  Dizideki herbir fiyati konsola bastiriniz.
 
-const prices = [250, 150, 300, 500];
+// const prices = [250, 150, 300, 500];
 
-for (let i = 0; i < prices.length; i++) console.log(i);
+// for (let i = 0; i < prices.length; i++) console.log(prices[i]);
 
+// const byer = ["kristiansand", "oslo", "lillesand", "bergen"];
+
+// for (let i = 0; i < byer.length; i++) console.log(byer[i]);
+
+const rukiye = ["ask", "sevgi", "anlayis", "intelligent", "elegant", "kaymak"];
+
+for (let i = 0; i < rukiye.length; i++) console.log(rukiye[i]);
 // prices.forEach((p) => console.log(p));
 
 // //* KLASIK FOR
