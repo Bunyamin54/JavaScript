@@ -54,8 +54,20 @@ console.log("ENGINE", car["engine"]);
 
 console.log("ENGINE:", car["engine"]); //? objeAdi["keyAdi"]
 
-const myKey = prompt(
-  "Araba ile ilgili Neyi ogrenmek istersiniz: speed, color,engine ..."
-);
+// const myKey = prompt(
+//   "Araba ile ilgili Neyi ogrenmek istersiniz: speed, color,engine ..."
+// );
 
-alert(car[myKey]);
+// alert(car[myKey]);
+
+//* object (classindan new operaotoru ile)
+
+const myCar = new Object();
+myCar.brand = "BMW";
+myCar.model = 2023;
+myCar.speed = 7;
+
+console.log(myCar.speed);
+console.log(myCar.brand);
+
+console.log(myCar);
