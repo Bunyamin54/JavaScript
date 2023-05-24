@@ -42,5 +42,6 @@ car.color.forEach((c) => console.log(c));
 
 car.speed = 7;
 car.color = "Morcivert";
+car.class = "E";
 
 console.log(car);
