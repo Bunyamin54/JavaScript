@@ -211,4 +211,4 @@ console.log(teamFullName1)
 
 //* Ornek5: 22 yasindan kucuk ve esit olanlarin isimlerini diziye saklayiniz.
 
-//* Ornek6: ortalama yasi hesaplayiniz.
+// * Ornek6: ortalama yasi hesaplayiniz.
