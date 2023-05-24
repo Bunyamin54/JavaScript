@@ -127,6 +127,14 @@ console.log(biggerThan9000);
 // //* =======================================
 // //*             REDUCE METHOD
 // //* =======================================
+const mayislar = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+const toplamMayis = mayislar.reduce((toplam, deger) => toplam + deger, 0);
+
+console.log("TOPLAM MAYIS", toplamMayis);
+
+//? maasi 600 ile 10000 tl arasindaki arkadaslara %10 zam yapip bu maaslarin toplamini hesaplayiniz
+
+const zamliMaasToplami = mayislar.filter((m) => m >= 6000 && m <= 10000);
 
 // //* =======================================
 // //*               OTHERS
