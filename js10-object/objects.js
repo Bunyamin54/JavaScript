@@ -23,6 +23,8 @@ console.log("******* Objects *********");
 // console.log(car.model);
 
 //! object literea, en cok tercih edilen yontem
+// * reed method
+
 const car = {
   brand: "Mercedes",
   model: 2020,
@@ -37,11 +39,23 @@ console.log(car.color[0]);
 
 console.log(car.color);
 car.color.forEach((c) => console.log(c));
-
-//? objenin degerini degistirme (write)
+//! write method
+// //? objenin degerini degistirme (write)
 
 car.speed = 7;
 car.color = "Morcivert";
 car.class = "E";
 
 console.log(car);
+
+// * Square Bracket yontemi
+
+console.log("ENGINE", car["engine"]);
+
+console.log("ENGINE:", car["engine"]); //? objeAdi["keyAdi"]
+
+const myKey = prompt(
+  "Araba ile ilgili Neyi ogrenmek istersiniz: speed, color,engine ..."
+);
+
+alert(car[myKey]);
