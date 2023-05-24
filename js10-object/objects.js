@@ -37,3 +37,10 @@ console.log(car.color[0]);
 
 console.log(car.color);
 car.color.forEach((c) => console.log(c));
+
+//? objenin degerini degistirme (write)
+
+car.speed = 7;
+car.color = "Morcivert";
+
+console.log(car);
