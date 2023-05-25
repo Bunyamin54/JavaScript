@@ -125,4 +125,4 @@ const car = {
 //? rest operatoru kullanici tarafindan girilen degerleri dizi icerisinde konumlandirir.
 //! bi diz veya obje dek idegerleri geri kalanlari
 
-const araclar = ["bmw", "mercedes", "ferrari", "rover", "lambo"];
+const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"];
