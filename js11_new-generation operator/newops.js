@@ -130,3 +130,16 @@ const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"];
 const [araba1, araba2, ...geriKalanlar] = araclar;
 console.log(araba1);
 console.log(geriKalanlar);
+
+//! array de sira ve sayi onemli .
+
+const kisi = {
+  ad: "canan",
+  soyad: "cano",
+  yas: 33,
+  meslek: "tester",
+};
+
+const { meslek, ...bilgi } = kisi;
+console.log(meslek);
+console.log(bilgi);
