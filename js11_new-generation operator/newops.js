@@ -205,22 +205,33 @@ const car = {
 
 //? Array Copy
 
-const myNumbers = [4, 5, 6];
-const herNumber = [1, 2, 3, ...myNumbers];
-const hisNumbers = [...herNumber];
+// const myNumbers = [4, 5, 6];
+// const herNumber = [1, 2, 3, ...myNumbers];
+// const hisNumbers = [...herNumber];
 
-console.log(herNumber, myNumbers);
-console.log(hisNumbers);
+// console.log(herNumber, myNumbers);
+// console.log(hisNumbers);
 
-hisNumbers.push(7);
-myNumbers.push(77);
+// hisNumbers.push(7);
+// myNumbers.push(77);
 
-console.log("MY:", myNumbers);
-console.log("HER:", herNumber);
-console.log("HIS:", hisNumbers);
+// console.log("MY:", myNumbers);
+// console.log("HER:", herNumber);
+// console.log("HIS:", hisNumbers);
 
-//* sig kopyalama
-const theirNumbers = hisNumbers;
+// //* sig kopyalama
+// const theirNumbers = hisNumbers;
 
-theirNumbers.push(8);
-console.log(theirNumbers, hisNumbers);
+// theirNumbers.push(8);
+// console.log(theirNumbers, hisNumbers);
+
+//? Object copying
+
+const firstObj = { a: 1, b: 2, c: 3 };
+const secondObj = { a: 2, d: 3, c: 4 };
+
+const copiedFirstObj = { ...firstObj };
+console.log(copiedFirstObj);
+
+copiedFirstObj.a = 44; //! nestid olmadigi icin dip coppy gibi davranir. ikisi bagimsizdir
+console.log(copiedFirstObj, firstObj);
