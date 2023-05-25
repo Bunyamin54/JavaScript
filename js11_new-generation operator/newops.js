@@ -196,3 +196,4 @@ const cumle = "Olmak ya da olmamak";
 
 const karakterler = [...cumle];
 console.log(karakterler);
+console.log(cumle);
