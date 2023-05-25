@@ -197,3 +197,8 @@ const cumle = "Olmak ya da olmamak";
 const karakterler = [...cumle];
 console.log(karakterler);
 console.log(cumle);
+
+//! Math.m
+console.log("MAX:", Math.max(1, 3, 4, -1, 6));
+const rakamlar = [23, 45, 66, 77, 12, -1];
+console.log("MIN:", Math.min(...rakamlar));
