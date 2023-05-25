@@ -48,7 +48,7 @@ console.log("******* Objects *********");
 
 // console.log(car);
 
-// // * Square Bracket yontemi
+// * Square Bracket yontemi
 
 // console.log("ENGINE", car["engine"]);
 

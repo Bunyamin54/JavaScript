@@ -240,3 +240,20 @@ const car = {
 
 // console.log(combinedObjs);
 // //? spred operatoru ile objeler birlestirilebilir
+
+// //! FOR - OF
+// //* for (x of iterable) {
+// //*   code block to be executed
+// //* }
+
+// console.log("****************")
+// for (let key of Object.keys(people)) {
+//   console.log(key)
+// }
+
+// console.log("****************")
+// //? people objesindeki tum salary 'leri yazdir
+// for (let v of Object.values(people)) {
+//   console.log(v.job)
+// console.log(v["salary"]);
+// }
