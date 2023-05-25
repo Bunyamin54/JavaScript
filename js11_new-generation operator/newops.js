@@ -178,27 +178,49 @@ const car = {
 // };
 // console.log("SONUC:", toplaminiAl(2, 5, 10, 4, 6, 8));
 
-const ucanAraclar = ["drone", "heli", "ucak"];
-const karaAraclari = ["tir", "araba", "kamyonet", "bisiklet"];
+// const ucanAraclar = ["drone", "heli", "ucak"];
+// const karaAraclari = ["tir", "araba", "kamyonet", "bisiklet"];
 
-const tasitlar = [ucanAraclar, karaAraclari];
-console.log(tasitlar);
+// const tasitlar = [ucanAraclar, karaAraclari];
+// console.log(tasitlar);
 
-console.log(tasitlar[0][1]);
-// //? nested ic ice yapi var .
+// console.log(tasitlar[0][1]);
+// // //? nested ic ice yapi var .
 // //! Spred methodu
 // //* concatination yapmak isteriz ise yarar ama Spred methodu daha uygun
 
-const tasitlar1 = [...ucanAraclar, ...karaAraclari];
-console.log(tasitlar1);
+// const tasitlar1 = [...ucanAraclar, ...karaAraclari];
+// console.log(tasitlar1);
 
-const cumle = "Olmak ya da olmamak";
+// const cumle = "Olmak ya da olmamak";
 
-const karakterler = [...cumle];
-console.log(karakterler);
-console.log(cumle);
+// const karakterler = [...cumle];
+// console.log(karakterler);
+// console.log(cumle);
 
-//! Math.m
-console.log("MAX:", Math.max(1, 3, 4, -1, 6));
-const rakamlar = [23, 45, 66, 77, 12, -1];
-console.log("MIN:", Math.min(...rakamlar));
+// //! Math.m
+// console.log("MAX:", Math.max(1, 3, 4, -1, 6));
+// const rakamlar = [23, 45, 66, 77, 12, -1];
+// console.log("MIN:", Math.min(...rakamlar));
+
+//? Array Copy
+
+const myNumbers = [4, 5, 6];
+const herNumber = [1, 2, 3, ...myNumbers];
+const hisNumbers = [...herNumber];
+
+console.log(herNumber, myNumbers);
+console.log(hisNumbers);
+
+hisNumbers.push(7);
+myNumbers.push(77);
+
+console.log("MY:", myNumbers);
+console.log("HER:", herNumber);
+console.log("HIS:", hisNumbers);
+
+//* sig kopyalama
+const theirNumbers = hisNumbers;
+
+theirNumbers.push(8);
+console.log(theirNumbers, hisNumbers);
