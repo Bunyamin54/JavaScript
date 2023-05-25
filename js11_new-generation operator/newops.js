@@ -125,21 +125,69 @@ const car = {
 //? rest operatoru kullanici tarafindan girilen degerleri dizi icerisinde konumlandirir.
 //! bi diz veya obje dek idegerleri geri kalanlari
 
-const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"];
+// const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"];
 
-const [araba1, araba2, ...geriKalanlar] = araclar;
-console.log(araba1);
-console.log(geriKalanlar);
+// const [araba1, araba2, ...geriKalanlar] = araclar;
+// console.log(araba1);
+// console.log(geriKalanlar);
 
-//! array de sira ve sayi onemli .
+// //! array de sira ve sayi onemli .
 
-const kisi = {
-  ad: "canan",
-  soyad: "cano",
-  yas: 33,
-  meslek: "tester",
-};
+// const kisi = {
+//   ad: "canan",
+//   soyad: "cano",
+//   yas: 33,
+//   meslek: "tester",
+// };
 
-const { meslek, yas, ...isim } = kisi;
-console.log(meslek);
-console.log(isim);
+// const { meslek, yas, ...isim } = kisi;
+// console.log(meslek);
+// console.log(isim);
+
+//! bir fonksiyonun argumanlarini diziye cevirmek
+
+// const topla = (a, b) => a + b;
+
+//* REST: Object
+
+// const kisi = {
+//   ad: "Canan",
+//   soyad: "Cano",
+//   yas: 33,
+//   meslek: "tester",
+// };
+
+// const { meslek, yas, ...isim } = kisi;
+
+// console.log(meslek, yas);
+// console.log(isim);
+// console.log(kisi);
+
+// //! 2- Bir fonksiyonun argumanlarini diziye cevirmek icin kullanilabilir.
+
+// const topla = (a, b) => a + b;
+
+// console.log("SONUC:", topla(2, 5, 10, 4));
+
+// //? REST (...) ile non-iterable olan sayilari iterable hale (diziye)
+// //? cevirmiş olduk.
+
+// const toplaminiAl = (...sayilar) => {
+//   console.log(sayilar);
+//   return sayilar.reduce((t, v) => t + v, 0);
+// };
+// console.log("SONUC:", toplaminiAl(2, 5, 10, 4, 6, 8));
+
+const ucanAraclar = ["drone", "heli", "ucak"];
+const karaAraclari = ["tir", "araba", "kamyonet", "bisiklet"];
+
+const tasitlar = [ucanAraclar, karaAraclari];
+console.log(tasitlar);
+
+console.log(tasitlar[0][1]);
+//? nested ic ice yapi var .
+//! Spred methodu
+//* concatination yapmak isteriz ise yarar ama Spred methodu daha uygun
+
+const tasitlar1 = [...ucanAraclar, ...karaAraclari];
+console.log(tasitlar1);
