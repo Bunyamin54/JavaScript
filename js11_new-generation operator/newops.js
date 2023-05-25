@@ -191,3 +191,8 @@ console.log(tasitlar[0][1]);
 
 const tasitlar1 = [...ucanAraclar, ...karaAraclari];
 console.log(tasitlar1);
+
+const cumle = "Olmak ya da olmamak";
+
+const karakterler = [...cumle];
+console.log(karakterler);
