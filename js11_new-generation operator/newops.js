@@ -185,9 +185,9 @@ const tasitlar = [ucanAraclar, karaAraclari];
 console.log(tasitlar);
 
 console.log(tasitlar[0][1]);
-//? nested ic ice yapi var .
-//! Spred methodu
-//* concatination yapmak isteriz ise yarar ama Spred methodu daha uygun
+// //? nested ic ice yapi var .
+// //! Spred methodu
+// //* concatination yapmak isteriz ise yarar ama Spred methodu daha uygun
 
 const tasitlar1 = [...ucanAraclar, ...karaAraclari];
 console.log(tasitlar1);
