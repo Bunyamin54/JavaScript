@@ -185,7 +185,7 @@ const car = {
 // console.log(tasitlar);
 
 // console.log(tasitlar[0][1]);
-// // //? nested ic ice yapi var .
+// //? nested ic ice yapi var .
 // //! Spred methodu
 // //* concatination yapmak isteriz ise yarar ama Spred methodu daha uygun
 
