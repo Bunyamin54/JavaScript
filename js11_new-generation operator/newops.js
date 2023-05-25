@@ -227,16 +227,16 @@ const car = {
 
 //? Object copying
 
-const firstObj = { a: 1, b: 2, c: 3 };
-const secondObj = { a: 2, d: 3, c: 4 };
+// const firstObj = { a: 1, b: 2, c: 3 };
+// const secondObj = { a: 2, d: 3, c: 4 };
 
-const copiedFirstObj = { ...firstObj };
-console.log(copiedFirstObj);
+// const copiedFirstObj = { ...firstObj };
+// console.log(copiedFirstObj);
 
-copiedFirstObj.a = 44; //! nestid olmadigi icin dip coppy gibi davranir. ikisi bagimsizdir
-console.log(copiedFirstObj, firstObj);
+// copiedFirstObj.a = 44; //! nestid olmadigi icin dip coppy gibi davranir. ikisi bagimsizdir
+// console.log(copiedFirstObj, firstObj);
 
-const combinedObjs = { ...firstObj, ...secondObj };
+// const combinedObjs = { ...firstObj, ...secondObj };
 
-console.log(combinedObjs);
-//? spred operatoru ile objeler birlestirilebilir
+// console.log(combinedObjs);
+// //? spred operatoru ile objeler birlestirilebilir
