@@ -126,3 +126,7 @@ const car = {
 //! bi diz veya obje dek idegerleri geri kalanlari
 
 const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"];
+
+const [araba1, araba2, ...geriKalanlar] = araclar;
+console.log(araba1);
+console.log(geriKalanlar);
