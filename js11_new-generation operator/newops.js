@@ -111,11 +111,15 @@ const car = {
 
 // * Destructuring ARRAY
 
-const names = ["Ahmet", "Mehmet", "ismet", "Saffet"];
+// const names = ["Ahmet", "Mehmet", "ismet", "Saffet"];
+// //* klasik method
+// const ismet = names[2];
+// console.log(ismet);
 
-const ismet = names[2];
-console.log(ismet);
+// //*Destructuring ARRAY  sira onemli
+// const [ahmo, , ismo, safo] = names;
+// console.log(ahmo, ismo, safo);
+// //* sira onemli
 
-const [ahmo, , ismo, safo] = names;
-console.log(ahmo, ismo, safo);
-//* sira onemli
+//! rest (...) geri kalanlar yada ac dok anlamindan operatoru
+//? rest operatoru kullanici tarafindan girilen degerleri dizi icerisinde konumlandirir.
