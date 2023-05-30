@@ -77,10 +77,42 @@ listsArr.forEach((li) => console.log(li))
 lists[2].innerHTML = `<h1>Javascript</h1>`
 lists[3].innerText = `<h1>React</h1>`
 lists[4].textContent = `<h1>VUE</h1>`
+QUERYSELECTOR()
 //* ========================================
-//*              QUERYSELECTOR()
-//* ========================================
+// ! QUery Selector ile id, tag, class seçilebilir.
+//! bu secici akısta gördügü ilk elementi secer
+
+//? id secildi (#)
+const header = document.querySelector("#header")
+console.log(header)
+
+//? class secildi (.)
+const itemLists = document.querySelector(".list")
+console.log(itemLists)
+
+//? h2 tag'ı secilmis oldu.
+const h2 = document.querySelector("h2")
+console.log(h2)
+
+//? CSS deki selector mantigi kullanabilir
+const otherH2 = document.querySelector("section h2")
+
+const buton = document.querySelector("section.add-item #btn")
+console.log(buton)
+
+const react = document.querySelector("section.item-list ul li:nth-child(4)")
+console.log(react)
 
 //* ========================================
 //*              QUERYSELECTORALL()
 //* ========================================
+
+const listeler = document.querySelectorAll("ul li")
+console.log(listeler) //? NodeList(5) [li.list, li.list, li.list, li.list, li.list]
+
+listeler.forEach((li) => console.log(li))
+
+//? alternative olarak
+for (const liste of listeler.values()) {
+  console.log(liste)
+}
