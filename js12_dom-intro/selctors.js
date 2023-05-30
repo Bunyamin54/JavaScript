@@ -1,9 +1,13 @@
-console.log("***** SELECTORS *****")
+console.log("***** SELECTORS *****");
 
 //*===========================================
 //*            GETELEMENTBYID()
 //*===========================================
+const myHeader = document.getElementById("header");
+console.log(myHeader);
 
+myHeader.style.backgroundColor = "red";
+myHeader.style.color = "white";
 //*===========================================
 //*          GETELEMENTSBYTAGNAME()
 //*===========================================
