@@ -31,11 +31,16 @@ h1.textContent = "DOM Introductions";
 
 //? deger okuma
 console.log(h1.textContent);
+console.log(h1.innerText);
+console.log(h1.innerHTML);
 
 //*===========================================
 //*          GETELEMENTSBYTAGNAME()
 //*===========================================
+const myInput = document.getElementsByTagName("input");
+console.log(myInput); //* Dizimsi aray grubu dom api sinin bize sundugu dizi
 
+HTMLCollection(2) [input#input, input#btn, input: input#input, btn: input#btn]
 //*===========================================
 //*          GETELEMENTSBYCLASSNAME()
 //*===========================================
