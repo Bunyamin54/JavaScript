@@ -29,8 +29,42 @@ const list = document.querySelector(".list");
 console.log(list.textContent);
 console.log(list.closest("section"));
 
-/?//! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
+//! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
 console.log(list.closest("body").querySelector("header h1").innerText);
 
 //* en yakin ortak nokta bulunup ordan hedefe gidilir.
 
+//* 2- Asagi Yonde traverse
+//*----------------------------------------------
+//? Children, firstElementChild, lastElementChild
+
+console.log(addItem.children) //?HTMLCollection(3) [h2, input#input, input#btn, input: input#input, btn: input#btn]
+
+console.log(addItem.children[2]) //?
+
+console.log(addItem.firstElementChild) //? h2
+console.log(addItem.lastElementChild) //? ADD Buton
+
+console.log(addItem.firstChild) //? Merhaba section
+
+//? firstChild bir yazi elementinin icerisindeki yazi dugumunu verir.
+
+console.log(document.querySelector("h1").firstChild) //?DOM SELECTORS
+
+//*3- Yatay Yonde traverse
+//*----------------------------------------------
+//! nextElementSibling ,previousElementSibling
+
+const ul = document.querySelector("ul")
+
+const lists = ul.children
+console.log(lists)
+
+const js = lists[2]
+console.log(js.innerText) //? Javascript
+
+const css = js.previousElementSibling
+console.log(css.innerText) //? CSS
+
+const django = js.nextElementSibling.nextElementSibling
+console.log(django.innerHTML) //? Django
