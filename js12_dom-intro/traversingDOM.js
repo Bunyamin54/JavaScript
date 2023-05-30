@@ -23,13 +23,13 @@ console.log(addItem.parentElement); //? main
 console.log(addItem.parentNode.parentNode); //? body
 
 //! closest (): belirtilen elementin parentlerinin ilk uygun parentini  secer
-
+//! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
 const list = document.querySelector(".list");
 
 console.log(list.textContent);
 console.log(list.closest("section"));
 
-
+/?//! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
 console.log(list.closest("body").querySelector("header h1").innerText);
 
 //* en yakin ortak nokta bulunup ordan hedefe gidilir.
