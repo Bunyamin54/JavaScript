@@ -26,3 +26,16 @@ main.appendChild(newP)
 //? item list sectionun onune yeni elementi ekler.
 const itemListSection = document.querySelector(".item-list")
 itemListSection.before(newP)
+
+
+//! ID, CLASS verme
+
+//? 1) yontem
+
+newP.id = "paragraf"
+newP.className = "par center"
+
+//? 2. yontem  setAttribute
+
+newP.setAttribute("id", "new-id")
+newP.setAttribute("class", "new-class")
