@@ -22,7 +22,7 @@ const main   =  document.querySelector("main")
 
 main.appendChild(newP)
 
-
+//* Element.before()  ve Element.after()  appenChild gibi aslinda bir elementi Dom Treeye baglar
 //? item list sectionun onune yeni elementi ekler.
 const itemListSection = document.querySelector(".item-list")
 itemListSection.before(newP)
