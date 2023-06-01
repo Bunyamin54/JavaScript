@@ -34,8 +34,24 @@ itemListSection.before(newP)
 
 newP.id = "paragraf"
 newP.className = "par center"
-
+newP.name= "deneme"
 //? 2. yontem  setAttribute
 
 newP.setAttribute("id", "new-id")
 newP.setAttribute("class", "new-class")
+newP.setAttribute("name", "new-class")
+newP.setAttribute("type", "button")
+
+//? classList  aktiv kullanilan bir yontem
+newP.classList.add("bg-danger", "border", "border-2", "border-succes")
+console.log(newP.classList.contains("new-class"));
+
+//* clasList.contains . remove
+if (newP.classList.contains("new-class")) {
+//   newP.classList.add("border-succes")
+  newP.classList.remove("new-class")
+}
+
+//* classList.toggle()  (bir class varsa kaldirir yoksa ekler)
+
+newP.classList.toggle("bg-danger")
