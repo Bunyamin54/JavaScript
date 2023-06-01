@@ -16,3 +16,13 @@ console.log(newP);
 
 //! 2 bagla ata (append)
 
+//?4- yeni elementin Dom tree baglanmasi (append)
+//* main bolumunun en sonuna yeni elementi ekler.
+const main   =  document.querySelector("main")
+
+main.appendChild(newP)
+
+
+//? item list sectionun onune yeni elementi ekler.
+const itemListSection = document.querySelector(".item-list")
+itemListSection.before(newP)
