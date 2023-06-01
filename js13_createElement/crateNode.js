@@ -55,3 +55,32 @@ if (newP.classList.contains("new-class")) {
 //* classList.toggle()  (bir class varsa kaldirir yoksa ekler)
 
 newP.classList.toggle("bg-danger")
+
+//**** id class gibi ozellikleri Okuma ******* */
+//? 1 yontem
+console.log(newP.id);
+console.log(newP.className);
+
+//?2. yontem
+
+console.log(newP.getAttribute("type"));
+console.log(newP.getAttribute("class"));
+
+
+//* yeni bir element olusturma med html
+
+
+
+const newDiv = document.createElement(("div"))
+newDiv.id = "my-div"
+itemListSection.after(newDiv)
+
+newDiv.innerHTML =`
+
+<h2 class="par center"> Languages</h2>
+<ul>
+    <li>C++</li>
+    <li>Java</li>
+    <li>React</li>
+    <li>go</li>
+</ul>`
