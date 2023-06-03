@@ -2,6 +2,8 @@ let randomNumber = Math.floor(Math.random() * 100) +1;
 let minGuess = 1;
 let maxGuess = 100;
 
+
+document.getElementById("userInput").focus()
 function guess () {
     let userGuess = document.getElementById("userInput").value;
     console.log(userGuess);
