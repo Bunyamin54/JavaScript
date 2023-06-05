@@ -90,7 +90,7 @@ article.selection img:hover {
   width: 60%;
 }
 
-.choices {
+article.choices {
   display: flex;
   justify-content: center;
 }
