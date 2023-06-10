@@ -14,9 +14,18 @@ selectionArticle.addEventListener("click", (e) => {
     userSelectImg.src = `./assets/${e.target.id}.png`
     userSelectImg.alt = e.target.id
     yourChoiceDiv.appendChild(userSelectImg)
+    creatPcSelection()
   }
 })
 
+
+const creatPcSelection = () => {
+const pcArr = ["rock", "paper", "scissor"]
+const pcRandom = pcArr[Math.floor (Math.random() * 3)]
+pcSelectImg.src = `./assets${pcRandom}.png`
+pcSelectImg.
+
+}
 //? Resimler
 // const rockImg = document.getElementById("rock")
 // const paperImg = document.getElementById("paper")
