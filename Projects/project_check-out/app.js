@@ -1,16 +1,9 @@
-
-
-
 // ******selectors
 
 
 const main = document.getElementById("products-preview")
-
-
 const amountOfProducts = document.querySelector(".amount-of-product")
-
 const selectedProducts = document.querySelector(".main__sum-price")
-
 const shipping = document.getElementById("cart-shipping").querySelector(".dollar")
 const tax = document.getElementById("cart-tax").querySelector(".dollar")
 const total = document.getElementById("cart-total").querySelector(".dollar")
