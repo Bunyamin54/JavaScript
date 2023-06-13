@@ -14,7 +14,10 @@ const selectedProducts = document.querySelector(".main__sum-price")
 // let totalAmount = 0
 
 // ******** events
+window.addEventListener("load", () => {
+    selectedProducts.innerHTML = updateAmount()
 
+})
 
 main.addEventListener("click", (e) => {
     
