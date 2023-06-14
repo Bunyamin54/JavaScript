@@ -44,14 +44,15 @@
 
 //* Asenkron (setTimeout())
 
+setTimeout(() => {
 
+    console.log("Whats up?");
+ },1000) // 
 // console.time("timer")
 setTimeout(() => {
 
-console.log("Data fetched");
+console.log("Im fine");
 // console.timeEnd("timer")
-
-
 
 }, 3000)
 console.log("Start");
