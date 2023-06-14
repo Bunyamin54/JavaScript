@@ -32,9 +32,18 @@
 
 console.log("Promise")
 
-new Promise((resolve, reject) =>  {
+const networkReq = new Promise((resolve, reject) =>  {
 
+const data = {a:1, b:2 }
+const sucess = Math.random()*5
+if(sucess){
+    console.log("Data fetched");
+    resolve(data)
+}else{
 
+reject(new Error)("Network Error")
 
-    
+}
 })
+
+networkReq.then((res) => console.log(first))
