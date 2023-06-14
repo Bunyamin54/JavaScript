@@ -4,7 +4,8 @@
 
 //! Javascript, single-threaded ve Asenkron Programlama dilidir.
 
-//? Asenkron Programlama
+//? Asenkron Programlama  API es zamanli bir cok isi yapiyor mus izlenimi  gosterir. Disa bagimli olan heryerde asecron kullanmak mantikli 
+
 //? --------------------------------------------------------------
 //? Asenkron Programlama, bir alt gorevin uygulamanin asil thread'inden
 //? bagimsiz olarak arka planda calistirilmasina izin veren paralel programlama
@@ -12,7 +13,7 @@
 //? asil thread bu konuda bilgilendirilir. Asenkron programlama, uygulamalarin
 //? performansininin artirilmasina ve daha iyi kullanici deneyimine katki saglamaktadir.
 
-//? Ozellikle bir API'den veya Veritabanindan veri cekme, Giris/Cikis islemleri,
+//!  Ozellikle bir API'den veya Veritabanindan veri cekme, Giris/Cikis islemleri,
 //? Dosya Okuma/Yazma islemleri gibi zaman tuketen kodlarda Asyn Programlama
 //? kullanilmasi cok onemlidir.
 
