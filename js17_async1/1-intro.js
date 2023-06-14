@@ -20,18 +20,26 @@
 //* Senkron
 //* ------------------------------------------------
 
-console.log("ASYNC INTRO")
+// console.log("ASYNC INTRO")
 
-const delay = (waitingTime) => {
-const startTime = new Date().getTime()
+// const delay = (waitingTime) => {
+// const startTime = new Date().getTime()
 
-while(new Date().getTime () < startTime + waitingTime)
-{
-    ;
-}
-}
-console.log("Hello");
-delay (4000)  //? blocking code - senkron
+// while(new Date().getTime () < startTime + waitingTime)
+// {
+//     ;
+// }
+// }
+// console.log("Hello");
+
+
+// console.time("gecikme")
+// delay (4000)
+// console.timeEnd("gecikme")
+//   //? blocking code - senkron
 
 // alert("blocked")  //? blocking kode
-console.log("hi");
+// console.log("hi");
+
+
+//* Asenkron (setTimeout())
