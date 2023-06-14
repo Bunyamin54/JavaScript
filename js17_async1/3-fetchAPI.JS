@@ -43,15 +43,28 @@
 //     `
 //   })
 // }
-let userListDOM = document.querySelector("#userList")
-//* json dosyadan veri cektik api uzerinden url yapisi ile veri cektik 
-fetch("https://jsonplaceholder.typicode.com/albums").then(response => 
-response.json()).then(responseJson => {
-  responseJson.forEach(item => {
+// let userListDOM = document.querySelector("#userList")
+// //* json dosyadan veri cektik api uzerinden url yapisi ile veri cektik 
+// fetch("https://jsonplaceholder.typicode.com/albums").then(response => 
+// response.json()).then(responseJson => {
+//   responseJson.forEach(item => {
     
-let liDOM= document.createElement('li')
-liDOM.innerHTML =item.title
-userListDOM.appendChild(liDOM)
+// let liDOM= document.createElement('li')
+// liDOM.innerHTML =item.title
+// userListDOM.appendChild(liDOM)
 
-  })
-})
+//   })
+// })
+
+// fetch("https://jsonplaceholder.typicode.com/photos").then(response => response.json()).then(responseJson  => { console.log(responseJson[4])}) 
+
+
+// fetch ("https://jsonplaceholder.typicode.com/photos").then(response => response.json()).then(responseJson => {console.log(responseJson[3])})
+
+
+// fetch("https://jsonplaceholder.typicode.com/users").then(response => response.json()).then(responseJson => {console.log(responseJson)})
+
+
+// fetch("https://jsonplaceholder.typicode.com/todos").then(response=> response.json()).then(responseJson=> {console.log(responseJson)})
+
+// fetch("https://jsonplaceholder.typicode.com/posts").then(response=> response.json()).then(responseJson => {console.log(responseJson[3])})
