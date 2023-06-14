@@ -46,8 +46,9 @@
 
 
 console.log("Start");
-
+console.time("timer")
 setTimeout(() => {
 
 console.log("Data fetched");
+console.timeEnd("timer")
 }, 3000)
