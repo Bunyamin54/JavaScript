@@ -59,7 +59,8 @@
  
 
 //**** asenkron (setInterval), clearInterval */
-
+ //?? setInterval periyodik zaman araligi olusturmak icin kullanilabilir.
+ //? clearInterval yardimyla surekli devam interval pasif hala getirilir
 let count= 0
 const sec1 = setInterval(( ) => {
 
