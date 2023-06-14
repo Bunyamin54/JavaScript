@@ -44,15 +44,18 @@
 
 //* Asenkron (setTimeout())
 
-setTimeout(() => {
+// setTimeout(() => {
 
-    console.log("Whats up?");
- },1000) // 
-// console.time("timer")
-setTimeout(() => {
+//     console.log("Whats up?");
+//  },1000) // 
+// // console.time("timer")
+// setTimeout(() => {
 
-console.log("Im fine");
-// console.timeEnd("timer")
+// console.log("Im fine");
+// // console.timeEnd("timer")
 
-}, 3000)
-console.log("Start");
+// }, 3000)
+// console.log("Start");
+ 
+
+//**** asenkron (setInterval), clearInterval */
