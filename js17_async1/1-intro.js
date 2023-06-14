@@ -21,3 +21,10 @@
 //* ------------------------------------------------
 
 console.log("ASYNC INTRO")
+
+console.log("Hello");
+
+
+
+// alert("blocked")  //? blocking kode
+console.log("hi");
