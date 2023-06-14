@@ -12,4 +12,14 @@
 
 console.log("FETCH")
 
-fetch("https://api.github.com/users").then((res)=> console.log(res)) 
+fetch("https://api.github.com/users")
+.then((res) =>  {
+//! error handling
+    if(!res.ok) {
+throw new Error("Something went wrong", res.status)
+
+    }
+
+return res.json()
+})
+.then((data) => console.log(data));
