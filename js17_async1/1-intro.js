@@ -45,10 +45,13 @@
 //* Asenkron (setTimeout())
 
 
-console.log("Start");
-console.time("timer")
+// console.time("timer")
 setTimeout(() => {
 
 console.log("Data fetched");
-console.timeEnd("timer")
+// console.timeEnd("timer")
+
+
+
 }, 3000)
+console.log("Start");
