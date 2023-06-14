@@ -31,3 +31,10 @@
 //? Zincirleme olarak kullanilabilirler.
 
 console.log("Promise")
+
+new Promise((resolve, reject) =>  {
+
+
+
+    
+})
