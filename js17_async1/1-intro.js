@@ -22,8 +22,19 @@
 
 console.log("ASYNC INTRO")
 
-console.log("Hello");
+const delay = (waitingTime) => {
+const startTime = new Date().getTime()
 
+while(new Date().getTime () < startTime + waitingTime)
+{
+    ;
+}
+}
+
+
+
+console.log("Hello");
+delay (4000)
 
 
 // alert("blocked")  //? blocking kode
