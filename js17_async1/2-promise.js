@@ -35,15 +35,20 @@ console.log("Promise")
 const networkReq = new Promise((resolve, reject) =>  {
 
 const data = {a:1, b:2 }
-const sucess = Math.random()*5
+const sucess =Math.floor(Math.random() *5)
 if(sucess){
     console.log("Data fetched");
     resolve(data)
 }else{
 
-reject(new Error)("Network Error")
+reject("Network Error")
 
 }
 })
 
-networkReq.then((res) => console.log(first))
+networkReq
+.then((response) => console.log(response))
+.catch((err) => document.write(err))
+
+
+//* promise sayesinde bir asecron for dongusu kurulabilir. 
