@@ -43,3 +43,6 @@
 
 
 //* Asenkron (setTimeout())
+
+
+console.log("Set TimeOut");
