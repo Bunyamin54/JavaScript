@@ -45,12 +45,9 @@
 //* Asenkron (setTimeout())
 
 
-console.log("Set TimeOut");
+console.log("Start");
 
 setTimeout(() => {
 
-
-
-
-    
-})
+console.log("Data fetched");
+}, 3000)
