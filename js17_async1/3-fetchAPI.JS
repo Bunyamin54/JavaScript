@@ -55,17 +55,17 @@
 
 //   })
 // })
-let userListDOM = document.querySelector("#userList")
+// let userListDOM = document.querySelector("#userList")
 
-fetch("https://jsonplaceholder.typicode.com/photos").then(response => response.json()).then(responseJson  => { responseJson.forEach(item =>{
+// fetch("https://jsonplaceholder.typicode.com/photos").then(response => response.json()).then(responseJson  => { responseJson.forEach(item =>{
 
-let liDOM = document.createElement('item')
-liDOM.innerHTML = item.title
+// let liDOM = document.createElement('item')
+// liDOM.innerHTML = item.title
 
-userListDOM.appendChild(liDOM)
-} )
+// userListDOM.appendChild(liDOM)
+// } )
 
-}) 
+// }) 
 
 
 
