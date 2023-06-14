@@ -29,7 +29,7 @@
 //! Bu durumlar then() ve catch() metotlari ile yakalanabilir.
 //? then() ve catch() metotlari promise dondururler.
 //? Zincirleme olarak kullanilabilirler.
-
+ //* asecron kod blogu obje yapisina dayanir bu sozun istegin basarili ve basarisiz durumununa gore resolve ve reject durumu ortaya cikar
 console.log("Promise")
 
 const networkReq = new Promise((resolve, reject) =>  {
