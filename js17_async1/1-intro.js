@@ -48,11 +48,11 @@
 
 //     console.log("Whats up?");
 //  },1000) // 
-// // console.time("timer")
+// console.time("timer")
 // setTimeout(() => {
 
 // console.log("Im fine");
-// // console.timeEnd("timer")
+// console.timeEnd("timer")
 
 // }, 3000)
 // console.log("Start");
