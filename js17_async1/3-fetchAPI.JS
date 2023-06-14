@@ -12,4 +12,8 @@
 
 console.log("FETCH")
 
-fetch("https://api.github.com/users)
+fetch("https://api.github.com/users") {
+    
+method
+
+}
