@@ -12,8 +12,4 @@
 
 console.log("FETCH")
 
-fetch("https://api.github.com/users") {
-    
-method
-
-}
+fetch("https://api.github.com/users").then((res)=> console.log(res)) 
