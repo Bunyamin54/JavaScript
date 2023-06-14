@@ -15,7 +15,7 @@
 
 //!  Ozellikle bir API'den veya Veritabanindan veri cekme, Giris/Cikis islemleri,
 //? Dosya Okuma/Yazma islemleri gibi zaman tuketen kodlarda Asyn Programlama
-//? kullanilmasi cok onemlidir.
+//? kullanilmasi cok onemlidir. biz api lar sayesinde biliyoruz
 
 //* Senkron
 //* ------------------------------------------------
