@@ -59,3 +59,14 @@
  
 
 //**** asenkron (setInterval), clearInterval */
+
+let count= 0
+const sec1 = setInterval(( ) => {
+
+    console.log(++count);
+
+    if(count > 10 ) {
+
+        clearInterval(sec1)
+    }
+} , 1000)
