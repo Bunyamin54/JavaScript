@@ -30,12 +30,8 @@ while(new Date().getTime () < startTime + waitingTime)
     ;
 }
 }
-
-
-
 console.log("Hello");
-delay (4000)
-
+delay (4000)  //? blocking code - senkron
 
 // alert("blocked")  //? blocking kode
 console.log("hi");
