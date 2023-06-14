@@ -68,3 +68,6 @@
 // fetch("https://jsonplaceholder.typicode.com/todos").then(response=> response.json()).then(responseJson=> {console.log(responseJson)})
 
 // fetch("https://jsonplaceholder.typicode.com/posts").then(response=> response.json()).then(responseJson => {console.log(responseJson[3])})
+
+
+fetch("https://jsonplaceholder.typicode.com/albums").then(response=> response.json()).then(responseJson => {console.log(responseJson[2])})
