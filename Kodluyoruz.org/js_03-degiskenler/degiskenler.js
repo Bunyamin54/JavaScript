@@ -11,3 +11,10 @@ const SERVER_PASSWORD = 12345
 //* Degiskenler turkce karakterler icermemeli
 
 // * Anlamsiz degiskenler kullanmaya gerek yok 
+
+
+// **' bloolean  evet hayir 
+
+let isActive = true //* kullanici aktiv mi 
+let hasPassword = false  //* kullanicinin passwordu var mi ?
+
