@@ -10,3 +10,6 @@
 // undefined 
 console.log("Hello World");
 
+document.write("Merhaba dunya")
+
+alert("Merhaba Dunya")
