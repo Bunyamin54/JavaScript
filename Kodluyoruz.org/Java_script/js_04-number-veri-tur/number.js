@@ -47,5 +47,9 @@ console.log("Yukari Yuvarlama", Math.ceil(1.9));  // * Yukari yuvarlama
 
 //* yAKINA YUVARLAMA    
 
-console.log("Yakina yuvarlama:", Math.round(1.5) );
+console.log("Yakina yuvarlama:", Math.round(1.2) ); //* 1.2 ciktisi 1 oldu 1.5 alti 1 1.5 ustu 2 yuvarlar 
+
+
+let stringNumber ="11"
+console.log(stringNumber);
 
