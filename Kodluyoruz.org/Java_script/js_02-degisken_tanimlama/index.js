@@ -18,5 +18,5 @@ let fullname = "Bunyamin Genc"
 fullname= "Lorem ipsum dollor"  //* let i birden fazla tanimlayabiliriz.
 console.log(fullname); // Bunyamin Genc  //* tanimlama oncesinde yapilmali
 
-fullname += "Yeni eklenen bilgi"
+fullname +=Yeni eklenen bilgi"
 console.log(fullname);
