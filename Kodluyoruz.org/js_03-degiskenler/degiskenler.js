@@ -1,12 +1,12 @@
 // * camelCase  kullanimi  buyuk kucuk harf duyarli 
 
-let fullName = ""
-let kodluyoruzServerInfo = ""
+// let fullName = ""
+// let kodluyoruzServerInfo = ""
 
 // ** UPPER_CASE  kullanimi  buyuk harflerde alt cizgi ile birlestiriyoruz.
 
-const PASSWORD = "1234"
-const SERVER_PASSWORD = 12345
+// const PASSWORD = "1234"
+// const SERVER_PASSWORD = 12345
 
 //* Degiskenler turkce karakterler icermemeli
 
@@ -15,7 +15,12 @@ const SERVER_PASSWORD = 12345
 
 // **' bloolean  evet hayir 
 
-let isActive = true //* kullanici aktiv mi 
-let hasPassword = false  //* kullanicinin passwordu var mi ?
+// let isActive = true //* kullanici aktiv mi 
+// let hasPassword = false  //* kullanicinin passwordu var mi ?
 
-// * line length < 80 max olmali 
+// * line length < 80 max olmali  kod okunurlugu onemli 
+
+// let firstName = "Bunyamin"
+// let lastName = " Genc"
+
+// console.log(firstName,lastName);
