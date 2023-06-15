@@ -10,3 +10,4 @@ const SERVER_PASSWORD = 12345
 
 //* Degiskenler turkce karakterler icermemeli
 
+// * Anlamsiz degiskenler kullanmaya gerek yok 
