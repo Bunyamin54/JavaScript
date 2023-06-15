@@ -49,7 +49,10 @@ console.log("Yukari Yuvarlama", Math.ceil(1.9));  // * Yukari yuvarlama
 
 console.log("Yakina yuvarlama:", Math.round(1.2) ); //* 1.2 ciktisi 1 oldu 1.5 alti 1 1.5 ustu 2 yuvarlar 
 
-
+//* stringi number cevirme yontemi basina Number ekleyerek yaptik. 
 let stringNumber ="11"
 console.log(stringNumber);
+let newNumber = Number(stringNumber)
+
+console.log(newNumber);
 
