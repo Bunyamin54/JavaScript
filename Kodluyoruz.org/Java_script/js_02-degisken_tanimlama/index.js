@@ -14,9 +14,9 @@ console.log(password);
  // index.js:13 Uncaught ReferenceError: Cannot access 'fullname' before initialization
 // at index.js:13:13
 // (anonymous) @ index.js:13
-let fullname = "Bunyamin Genc"
-fullname= "Lorem ipsum dollor"  //* let i birden fazla tanimlayabiliriz.
-console.log(fullname); // Bunyamin Genc  //* tanimlama oncesinde yapilmali
+let fullName = "Bunyamin Genc"
+fullName= "Lorem ipsum dollor"  //* let i birden fazla tanimlayabiliriz.
+console.log(fullName); // Bunyamin Genc  //* tanimlama oncesinde yapilmali
 
-fullname +=Yeni eklenen bilgi"
-console.log(fullname);
+fullName  + "Yeni eklenen bilgi"
+console.log(fullName + "Test Bilgisi");
