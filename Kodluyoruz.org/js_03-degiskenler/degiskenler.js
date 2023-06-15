@@ -18,3 +18,4 @@ const SERVER_PASSWORD = 12345
 let isActive = true //* kullanici aktiv mi 
 let hasPassword = false  //* kullanicinin passwordu var mi ?
 
+// * line length < 80 max olmali 
