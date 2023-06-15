@@ -19,20 +19,30 @@
 //* Yapilan istek yerine getirilip sonuc degerlerinin dondurulmesi ile kodun calismasi devam eder.
 
 const getNews = async () => {
-    const API_KEY = "1a1a999e0d7240a6bd2dead87bcca78e"
+    const API_KEY = "1a1a999e0d7240a6bd2dead87bcca78"
   
     const URL = `https://newsapi.org/v2/top-headlines?country=tr&apiKey=${API_KEY}`
   
     try {
       const res = await fetch(URL)
+      //?Error handling
       if (!res.ok) {
         throw new Error("News can not be fetched")
       }
       const data = await res.json()
       renderNews(data.articles)
-    } catch (error) {
-      console.log(error)
+    } catch (err) {
+      // console.log(error)
+      renderError(err)
     }
+  }
+  
+  const renderError = (err) => {
+    const newsDiv = document.getElementById("news")
+    newsDiv.innerHTML = `
+      <h3>${err}</h3>
+      <img src="./img/404.png" alt="404" />
+    `
   }
   
   const renderNews = (news) => {
