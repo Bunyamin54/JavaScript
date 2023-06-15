@@ -35,8 +35,17 @@ console.log((2+3)*10); //* 50  islem onceligi parantez
 console.log(14 % 2); //* 1 kalani verir 2 ye bolup  sifir ise cift 1 ise tek
 
 console.log("Koli kalan urun ornegi:",18 % 8 );
+//* us alma iki ** carpi isreti ile
+console.log(2 * 2 * 2 *2 );
+console.log(2 *4);
 
+//*asagi yuvarlama
 
+console.log("Asagi yuvarlama",Math.floor(1.9)); //* asagi yuvarlama
 
+console.log("Yukari Yuvarlama", Math.ceil(1.9));  // * Yukari yuvarlama
 
+//* yAKINA YUVARLAMA    
+
+console.log("Yakina yuvarlama:", Math.round(1.5) );
 
