@@ -28,3 +28,15 @@ let DOMAIN = email.slice(email.search("@") +1)
 console.log(DOMAIN);
 
 console.log(DOMAIN.slice(0,DOMAIN.indexOf ('.')));
+
+// * Biglgiyi degistir  replace  methods
+
+email  = email.replace('gmail.com', 'kodluyoruz.org')
+
+console.log(email);
+
+// ** istedigim bilgi var mi  includes methodu
+
+console.log(email.includes("@"));
+console.log(email.includes("dddd"));
+
