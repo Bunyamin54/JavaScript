@@ -16,4 +16,8 @@ console.log(firstName);
 
 // * string icerisindeki bilgi aratmak icin search 
 
+console.log(email.search("@"));
+console.log(email[15]); //* olmayan birsey aratirsan -1 sonucu getirir
+
+
 
