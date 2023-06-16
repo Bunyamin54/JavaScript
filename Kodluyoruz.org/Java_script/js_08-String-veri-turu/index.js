@@ -46,5 +46,8 @@ console.log(email.endsWith("kodluyoruz.org"));
 
 // **  ilk harfleri buyuk yapmak
 
+firstName = "FIRST"
+lastName = "LAST"
+
 let fullName =`${firstName[0].toUpperCase()}${firstName.slice(1)} ${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase()} `
 console.log(fullName);
