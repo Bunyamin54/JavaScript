@@ -40,3 +40,11 @@ console.log(email);
 console.log(email.includes("@"));
 console.log(email.includes("dddd"));
 
+// * istedigm bilgiyle basladi mi bitti mi 
+console.log(email.endsWith("@"));
+console.log(email.endsWith("kodluyoruz.org"));
+
+// **  ilk harfleri buyuk yapmak
+
+let fullName =`${firstName[0].toUpperCase()}${firstName.slice(1)} ${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase()} `
+console.log(fullName);
