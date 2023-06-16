@@ -8,3 +8,4 @@ console.log(document.location.pathname);
 // ** Document Object Model
 
 document.body.style.backgroundColor = "greenyellow"
+
