@@ -18,3 +18,11 @@ console.log(
     " HasPassword :",
     typeof(hasPassword));
     
+
+    // * stringi metinsel bilgileri int ve floata donusturmek
+    
+    let number1 = "11"
+
+
+    number1 =parseInt(number1)
+    console.log("number1:", parseInt(number1), typeof(number1));
