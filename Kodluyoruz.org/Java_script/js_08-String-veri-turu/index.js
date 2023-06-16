@@ -19,5 +19,12 @@ console.log(firstName);
 console.log(email.search("@"));
 console.log(email[15]); //* olmayan birsey aratirsan -1 sonucu getirir
 
+//* Slice methodu  belli biryere kadar olani almak
+console.log(email.slice(1,10));
 
+console.log(email.slice(15)); //* @gmail.com
 
+let DOMAIN = email.slice(email.search("@") +1)
+console.log(DOMAIN);
+
+console.log(DOMAIN.slice(0,DOMAIN.indexOf ('.')));
