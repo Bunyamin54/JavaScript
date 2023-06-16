@@ -5,16 +5,16 @@ let strinPrice ="111"
 let hasPassword = true
 
 console.log(
-" price :",
+" Price :",
 typeof(price));
 
 
 console.log(
-    " stringPrice:",
+    " StringPrice:",
     typeof(strinPrice));
 
     
 console.log(
-    " hasPassword :",
+    " HasPassword :",
     typeof(hasPassword));
     
