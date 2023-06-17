@@ -12,8 +12,14 @@ console.log(cardsDiv);
 
 searchBtn.addEventListener("click",() => {
 
+    if (searchInput.value) {
+        console.log(searchInput.value);
+    }else {
+        alert("Lutfen bir kullanici adi giriniz!")
+    }
 
-console.log(searchInput.value);
+
+
 
 
 })
