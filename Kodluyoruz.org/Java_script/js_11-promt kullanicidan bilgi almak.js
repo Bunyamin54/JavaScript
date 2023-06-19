@@ -14,6 +14,9 @@ console.log(document.body) //* body bilgisi
 
 console.log(document.head)  //* head  header bilgisi
 
+document.body.style.backgroundColor = "aqua"
+document.head.style.color= "red"
+
 
 let fullName = prompt("Lutfen adinizi giriniz:")
 
