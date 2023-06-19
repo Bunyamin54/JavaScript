@@ -21,5 +21,6 @@ document.head.style.color= "red"
 let fullName = prompt("Lutfen adinizi giriniz:")
 
 let greeting =document.querySelector("#greeting")
+//* INNER HTML icerisine yeni bir bilgi eklemek.
 
-greeting.innerHTML =` ${greeting.innerHTML} <small style="color:red" >${fullName}</small>`
+greeting.innerHTML = `${greeting.innerHTML} <small style="color:red" >${fullName}</small>`
