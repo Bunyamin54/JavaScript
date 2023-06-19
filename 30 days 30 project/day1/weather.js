@@ -29,9 +29,7 @@ const URL = `https://api.openweathermap.org/data/2.5/weather?q
 
 try {
 
-    const res = await fetch(URL)
-
-
+const res = await fetch(URL)
  if (!res.ok){
 throw new Error(res.status)
 
