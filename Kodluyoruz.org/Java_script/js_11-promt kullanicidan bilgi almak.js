@@ -1,6 +1,20 @@
 // * promt
 
 
+// ** dokument gorevi nedir 
+
+ console.log(document.location.pathname)  // * lokasyon bilgisi almak host name
+
+console.log(document.URL)  //*  url bilgisi almak
+
+console.log(document.location.hostname)  //* hostname ip adress bildiriyor
+
+
+console.log(document.body) //* body bilgisi
+
+console.log(document.head)  //* head  header bilgisi
+
+
 let fullName = prompt("Lutfen adinizi giriniz:")
 
 let greeting =document.querySelector("#greeting")
