@@ -37,15 +37,17 @@ throw new Error(res.status)
 
  }
 const data =await res.json()
-console.log(data)
+
+weatherDataDom = (data)
+
 } catch (error) {
     
 }
-
-
+}
+const weatherDataDom = (data) => {
+    const {name, sys: {country}, main:{temp,feels_like, humidity}, weather: [{main, description,}] = data
 
 }
-
 
 //* try catch  yakaliyor-- calismaya devam eder. hatayi atliyor sonraki kodu yazdiyor
 // try {
