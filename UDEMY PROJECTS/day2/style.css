@@ -51,7 +51,7 @@ background-color: #f6f7fb;
     z-index: -1;
    
    }
-   
+
    .progress{
 
     background-color:var(--line-border-fill) ;
@@ -64,6 +64,10 @@ background-color: #f6f7fb;
     z-index: -1;
     transition: 0.4s ease;
    }
+
+  
+   
+  
 
    .circle{
 
@@ -108,7 +112,8 @@ transition: .4s ease;
     outline: 0;
    }
 
-   .btn#prev:disabled{
+   .btn:disabled{
 background-color: var(--line-border-empty);
-cursor: not-allowed;
+cursor: not-allowed
+
    }
