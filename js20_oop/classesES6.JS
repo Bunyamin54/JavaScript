@@ -14,4 +14,4 @@ const book1 = {
   year: 1886,
   getSummary: function () {
     return `${this.title} was written by ${this.author} in ${this.year}`
-  },
+  }}
