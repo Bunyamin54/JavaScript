@@ -15,3 +15,5 @@ const book1 = {
   getSummary: function () {
     return `${this.title} was written by ${this.author} in ${this.year}`
   }}
+
+  console.log("**** Classes****")
