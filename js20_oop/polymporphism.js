@@ -18,15 +18,21 @@ class Book {
   getSummary() {
     return `${this.title} was written by ${this.author} in ${this.year}`
   }
+
+setPrice (price) {
+    const taxRate = 1.1
+this.price =Math.trunc (price * taxRate)
+
+
+}
+
+
 }
 //! Book kalibinda yeni bir ornek (instance) olusturduk.
-const book3 = new Book("Stupid Reseaches", "XYZ", 2022)
-const book4 = new Book("Dummy Reseaches", "ABC", 2023)
-const book5 = new Book("Xcfgr  g gdfg d", "ABC", 2021)
+const book1 = new Book("Stupid Reseaches", "XYZ", 2022)
+const book2 = new Book("Dummy Reseaches", "ABC", 2023)
 
-console.log(book3)
-console.log(book3.getSummary())
-console.log(book4.getSummary())
+
 
 //? Sub-Class tanimlamasi (Inheritance)
 
@@ -37,7 +43,13 @@ class Magazine extends Book {
   }
 }
 
+book1.setPrice(100)
+console.log(book1)
+
 const mag1 = new Magazine("Elle", "Allen McElle", 2023, "June")
+
+mag1.setPrice(50)
 
 console.log(mag1)
 console.log(mag1.getSummary())
+
