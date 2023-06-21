@@ -38,4 +38,6 @@ if ( examGrade >= 0 && examGrade <= 100) {
 }
 
 
-console.log(textInfo)
+let info = document.querySelector("#info")
+
+info.innerHTML =`${textInfo} --> ${examGrade}  `
