@@ -17,3 +17,6 @@ JSON.parse(userInfo)
 
 user.isActive
 userInfo.isActive
+
+
+// * objeyi stringe cevirmek icin JSON.stringify ozelligini kaullaniyoruz.
