@@ -7,7 +7,9 @@
 
 let userName=prompt("Kullanici adinizi giriniz")
 
-if (userName.length > 0) {
+if (userName.length) {
 
     console.log(`Kullanici bilginiz ${userName}`)
+}else {
+    console.log("bilgiyok")
 }
