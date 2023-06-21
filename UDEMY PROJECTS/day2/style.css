@@ -28,22 +28,23 @@ background-color: #f6f7fb;
    .container{
 
     text-align: center;
+  
     
    }
 
-   .progress-container{
-
+   .progress-wrapper {
     display: flex;
-    gap: 55px;
-    justify-content:center;
-    position: relative;
-    margin-bottom: 50px;
-    margin-left: 25%;
-    max-width: 100%;
-    width: 350px;
-    
-   }
+    justify-content: center;
+}
 
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: 350px;
+}
    .progress-container::before{
     content: "";
     background-color:var(--line-border-empty) ;
@@ -70,10 +71,7 @@ background-color: #f6f7fb;
     transition: 0.4s ease;
    }
 
-  
    
-  
-
    .circle{
 
  background-color: white;
@@ -161,12 +159,12 @@ cursor: not-allowed
   }
   
   .link {
-
+font-size: x-large;
 float: right;
 display: flex;
 gap: 20px;
 flex-direction: row;
 padding: 1rem;
-margin-right: 195px;
+margin-right: 145px;
 
   }
