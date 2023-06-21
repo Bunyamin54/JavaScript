@@ -1,14 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Rotating Navigation</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="circle-container">
+
+            <div class="circle">
+                <button id="close">
+
+                    <i class="fas-fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+
+
+                </button>
+
+
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>React Kurulumu ve Kurulum Öncesinde Yapılması Gereken İşlemler</h1>
+            <small>Anthony Instructur</small>
+            <p>
+                Pc kullanıcı isimlerinin kontrol edilmesi:
+                Pc kullanıcı isminde boşluk karakteri olmayacak.
+                Pc kullanıcı isiminde Türkçe karakter olmayacak.
+                <br>
+                Örnekler:
+
+                C:\Users\Test User\desktop> Yanlış
+                C:\Users\Çalış\desktop> Yanlış
+                C:\Users\testuser\desktop> Doğru
+                C:\Users\TESTUSER\desktop> Doğru
+                <br><br>
+                Eğer bilgisayar kullanıcı isimlerimiz yukarıdaki kriterlere uygun değilse bununla ilgili “bilgisayar
+                kullanıcı adımı nasıl değiştirebilirim” şeklinde “Google”layarak işletim sisteminize uygun bir kaynak
+                bulup oradaki işlemleri dikkatli bir şekilde tamamlayarak veya paylaştığım linklerden faydalanarak
+                bilgisayar kullanıcı isimlerini değiştirebilirsiniz.
+                <br><br>
+                https://www.technopat.net/sosyal/konu/windows-kullanici-adini-degistirme.1383930/
+                https://pchocasi.com.tr/windows-10da-kullanici-dizin-adi-degistirme-27672/
+                2.NodeJs ve npm kontrolü:
+                <br><br>
+                Bilgisayarımızda NodeJs’in kurulu olup olmadığını terminale aşağıdaki komutu girerek kontrol edebiliriz:
+                node -v
+                <br><br>
+                Yukarıdaki gibi versiyon bilgisi gelirse NodeJs bilgisayarımızda kurulu demektir. Eğer versiyon bilgisi
+                gelmezse öncelikle bilgisayarımıza NodeJs kurmamız gerekiyor. Bunun için linke tıklayarak NodeJS in
+                kendi sitesinden kurulum için işletim sistemimize uygun indirmeyi yaparak yüklemeyi yapabiliriz.
+                Sonrasında npm sürüm kontrolü yapmamız gerekiyor. Genellikle NodeJs ile birlikte npm gelir ancak bazen
+                npm sürümü eski de kalabilir. Npx komutunu kulllanabilmemiz için npm sürümünün 5.6 üzeri olması
+                gerekiyor. Bunun için terminale aşağıdaki komutu girerek kontrol edebiliriz:
+                npm -v
+                <br><br>
+                Eğer burada sürüm bilgisi 5.6 öncesi çıkarsa terminale aşağıdaki komutu girerek npm versiyonumuzu en
+                güncel haline getirebiliriz.
+                npm install npm@latest -g
+                3. Proje isimlendirmede de dikkat etmemiz gereken hususlar var. Proje isimlerinde:
+                <br><br>
+                Türkçe karakter olmayacak.
+                Boşluk karakteri olmayacak.
+                Büyük harf kullanılmayacak.
+                Eğer proje ismimiz birden fazla kelime içeriyorsa aralarına “-” karakterini koyabiliriz. Yani “kebap
+                case” denilen isimlendirme yöntemini kullanabiliriz. Örneğin: “first-app” gibi.
+                <br><br>
+                4. Artık proje oluşturma komutunu terminale girebiliriz.
+                <br><br>
+                Öncelikle projeyi oluşturmak istediğimiz dizinde/klasörde terminalimizi açıyoruz. Terminal açma işlemini
+                VsCode aracılığıyla da yapabiliriz.
+                <br>
+                Sonra açtığımız terminalde aşağıdaki proje oluşturma komutumuzu giriyoruz:
+                <br>
+                npx create-react-app first-app
+                Bu işlem sırasında “‘create-react-app’ is not recognized as an internal or external command, operable
+                program or batch file.” vb. gibi bir hata ile karşılaşırsak terminalimize aşağıdaki komutu girebiliriz.
+                <br>
+                Sonrasında tekrar proje oluşturma komutunu girerek işlemlerimize devam edebiliriz:
+
+                <br>
+                Yukarıdaki ekranı terminalimizde görüyorsak işlemlerimiz başarılı bir şekilde devam ediyor demektir. Bu
+                işlem süresi bilgisayarınızın ve bağlantı hızınıza göre değişebilmektedir. Terminalde komut satırı
+                gelene kadar herhangi bir işlem yapmamamız gerekiyor.
+
+                <br>
+                Yukarıdaki ekranı gördüysek projemiz başarılı bir şekilde oluşturulmuştur.
+
+                5. Sıra geldi projeyi ayağa kaldırma işlemine. Bunun için sırasıyla yapacağımızişlemleri aslında
+                yukarıdaki ekranda görüyoruz. Yapacağımız işlemler:
+                <br>
+                Terminalde proje dizinine geçmek veya proje klasöründe terminali açmak.
+                Terminalimizde proje dizinine geçmezsek projeyi ayağa kaldırma komutunu girdiğimizde “npm start”
+                şeklinde hatalarla karşılaşacağız.
+                <br></br>
+                O nedenle doğru dizinde olup olmadığımızı projeyi ayağa kaldırma aşamasında ve sonrasında yapacağımız
+                işlemlerde mutlaka kontrol etmemiz gerekiyor. Terminal dizinimiz de son klasör ismi projemize verdiğimiz
+                isimse doğru dizindeyiz demektir. Eğer orada değilsek aşağıdaki gibi terminalimize “cd first-app”
+                komutunu girerek veya projenin olduğu klasörü terminalde açarak son klasör isminin proje ismimiz
+                olmasını sağlayabiliriz.
+
+
+                Artık proje dizinin de olduğuma göre projeyi ayağa kaldırma komutunu girebilirim.
+                <br></br>
+                npm start
+                <br>
+                Bu ekranı gördüysek projemiz başarılı bir şekilde ayağa kalkmıştır ve varsayılan tarayıcımızda
+                “http://localhost:3000/" adresi açılmıştır. Eğer açılmadıysa yukarıdaki ekranda görülen yerel bağlantıya
+                “ctrl+click” yaparak veya adresi kopyalayarak tarayıcımızda açabiliriz.
+
+                <br>
+                Bu ekranı tarayıcımız da gördüysek aşamaları başarılı bir şekilde tamamlayıp projemizi ayağa kaldırdık
+                demektir. Terminali kapatarak yada terminalde “ctrl + c” yaparak projeyi durdurabiliriz.
+                vr
+                React kurulumları için Clarusway Global youtube kanalında yayınlanan Yeni Proje React Kurulumu
+                videosundan da yararlanabilirsiniz.
+            </p>
+
+            <h3>My School</h3>
+            <img src="./img/Which-Tech-Career-is-Right-for-You-1024x511.png" alt="">
+
+            <p> Clarusway is a global coding bootcamp for beginners seeking six-figure IT careers in AWS & DevOps,
+                cybersecurity, data science, software development, Salesforce, Blockchain & Web3 Development, and SDET -
+                all within just a few months. Our unique programs provide affordable and effective IT training that
+                allows learners to gain both the classroom knowledge and hands-on skills needed to succeed in this
+                fast-paced industry.
+                At Clarusway, we are committed to helping individuals reach their full potential by utilizing innovative
+                mentorship programs and project-based group study methods. Our team of expert instructors specialize in
+                providing students with an interactive learning experience that combines both theoretical and practical
+                knowledge to ensure they can become subject matter experts quickly.
+                At Clarusway, we believe everyone should have access to quality coding education at an affordable price
+                point – subscribe now and begin your journey towards a successful tech career today!</p>
+        </div>
+
+    </div>
+
+    <nav>
+<ul>
+ <li><i class="fas fa-home"></i>Home</li>
+ <li><i class="fas fa-user-alt"></i>About</li>
+ <li><i class="fas fa-envelope"></i>Contact</li>
+
+
+</ul>
+
+    </nav>
     <script src="./app.js"></script>
 </body>
+
 </html>
