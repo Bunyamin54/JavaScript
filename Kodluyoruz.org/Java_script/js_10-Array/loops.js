@@ -91,3 +91,6 @@
 // * for Each 
 
 const PRODUCTS = ["laptop", "phone", "Spekaer", "Desktop", "Server"]
+
+
+PRODUCTS.forEach(product => console.log(product) )
