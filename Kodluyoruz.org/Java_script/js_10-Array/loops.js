@@ -93,4 +93,6 @@
 const PRODUCTS = ["laptop", "phone", "Spekaer", "Desktop", "Server"]
 
 
-PRODUCTS.forEach(product => console.log(product) )
+PRODUCTS.forEach((product, index, array) => array [index] = `${product.toUpperCase()}`)
+
+console.log(PRODUCTS) 
