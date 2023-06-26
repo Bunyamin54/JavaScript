@@ -2,17 +2,17 @@
 
 //* for lopp
 
-let users =["Lorem", "Ipsum", "Dolar"]
+// let users =["Lorem", "Ipsum", "Dolar"]
 
-const userListDOM = document.querySelector('#userList')
+// const userListDOM = document.querySelector('#userList')
 
-for (index = 0 ; index < users.length ; index++) {
+// for (index = 0 ; index < users.length ; index++) {
 
-    const liDOM = document.createElement('li')
-    liDOM.innerHTML = users[index]
-    userListDOM.appendChild(liDOM)
+//     const liDOM = document.createElement('li')
+//     liDOM.innerHTML = users[index]
+//     userListDOM.appendChild(liDOM)
 
-}
+// }
 
 // for (let index = 0 ; index < 10; index ++) {
 
@@ -25,3 +25,11 @@ for (index = 0 ; index < users.length ; index++) {
 
 //     console.log(index)
 // }
+
+//  * break  ve continue
+
+
+const LOREM_LIST = [
+
+    'lorem', 'ipsum', 'dolar' , ' amet', 'consectetur', ' adiping', 'elit', 
+]
