@@ -84,3 +84,21 @@ let newsItems =items.splice(1, 5) //*posisyon verme ve ogelere ayrimak
 console.log(newsItems)
 
 console.log(items)
+
+// * array icewrsindeki ogenin index bilgisini bulmak
+items.unshift("lorem")
+items.push("ipsum")
+
+console.log(items.indexOf("ipsum"))
+
+// * Array kopyalamak
+
+let copyItems = items
+console.log(items)
+
+copyItems.pop()  //* son ogeyi cikarmak bu yontemle kopy yapilamaz
+console.log(copyItems)
+
+copyItems = items.slice()  //* kopyalama yapar
+
+console.log(copyItems)
