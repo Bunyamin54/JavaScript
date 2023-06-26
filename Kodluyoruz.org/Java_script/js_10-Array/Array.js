@@ -41,3 +41,7 @@ console.log(items)
 
 items.unshift (5)  //* basa eklemek
 console.log(items)
+
+items.pop(50)  //* son daki elemani silmek
+console.log(items)
+
