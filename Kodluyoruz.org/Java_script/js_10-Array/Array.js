@@ -45,3 +45,6 @@ console.log(items)
 items.pop(50)  //* son daki elemani silmek
 console.log(items)
 
+items.shift (5)
+console.log(items)  //* ilk elemani cikarmak listeden
+
