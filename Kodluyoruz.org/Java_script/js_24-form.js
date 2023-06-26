@@ -12,7 +12,7 @@ function formSubmit(event) {
     let scoreInputDOM = document.querySelector('#score')
 console.log(scoreInputDOM.value)   // * input icersindeki degeri value almak
 
-localStorage.setItem('score', scoreInputDOM.value)  // *locaL STORAGE EKELEMEK
+localStorage.setItem('score', scoreInputDOM.value)  // *locaL STORAGE EKELEMEK - inputdaki name bilgisi onemli
 
 }
 
