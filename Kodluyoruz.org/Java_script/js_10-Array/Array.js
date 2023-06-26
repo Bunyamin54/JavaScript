@@ -35,6 +35,9 @@
 let items = [10, 20, 30, 40]
 console.log(items)
 
-items.push (50)
+items.push (50)  //* sona eklemek
 
+console.log(items)
+
+items.unshift (5)  //* basa eklemek
 console.log(items)
