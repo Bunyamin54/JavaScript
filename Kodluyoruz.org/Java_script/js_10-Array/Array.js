@@ -121,3 +121,10 @@ console.log(allUsers.toString())
 console.log(allUsers.join( " --- ")) //* join yontemi ile icerisine birsey atamak
 
 
+// * splice eklemek
+
+allUsers.splice(allUsers.length -1, 0, "Melisa")
+
+console.log(allUsers)
+
+allUsers.splice(Math.floor (allUsers.length / 2), 0, "Lorem")  //* bir ogeyi index bilgisine gore eklemek.
