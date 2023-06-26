@@ -10,4 +10,4 @@ let emtyArray = []  //* bos liste
 
 console.log(items.length)
 
-document.querySelector('#info').innerHTML = items.length
+document.querySelector('#info').innerHTML = items.length //* ekreana yazdirmak istersek.
