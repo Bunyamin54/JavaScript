@@ -72,3 +72,15 @@ console.log(items)
 items.push(maleUsers)  //* sona ekleme
 
 console.log(items)
+
+console.log(items.length) //* arraylar oge gibi tutluyor
+
+
+// * ilk ogeye ulasmak
+console.log(items[0].length)
+console.log(items[0][0])
+
+let newsItems =items.splice(1, 5) //*posisyon verme ve ogelere ayrimak
+console.log(newsItems)
+
+console.log(items)
