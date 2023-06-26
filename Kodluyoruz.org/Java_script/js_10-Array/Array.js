@@ -32,28 +32,43 @@
 // console.log(items[Math.floor(items.length/2)]) //* ortadaki elemana ulastik 30
 
 // ** sone eleman eklemek
-let items = [10, 20, 30, 40]
+// let items = [10, 20, 30, 40]
+// console.log(items)
+
+// items.push (50)  //* sona eklemek
+
+// console.log(items)
+
+// items.unshift (5)  //* basa eklemek
+// console.log(items)
+
+// items.pop(50)  //* son daki elemani silmek
+// console.log(items)
+
+// items.shift (5)
+// console.log(items)  //* ilk elemani cikarmak listeden
+
+
+// // ? Arryin icerisndeki bilgiyi degistirmek
+
+// items [0]  = 90  //* 0 . elemani degistirdik
+
+// console.log(items)
+
+// items[items.length-1] = 1000 //* sonuncu elemani degistirmek
+// console.log(items)
+
+//  * Array icinde array eklemek
+
+let items = [1, 2 ,3 ,4 ,5]
+
+let femaleUsers = ["Ayse", "Hulya" , "Merve"]
+let maleUsers = ["Ahmet", "Hasan", " Mehmet"]
+
+items.unshift(femaleUsers)  //*  basa ekleme
+
 console.log(items)
 
-items.push (50)  //* sona eklemek
+items.push(maleUsers)  //* sona ekleme
 
-console.log(items)
-
-items.unshift (5)  //* basa eklemek
-console.log(items)
-
-items.pop(50)  //* son daki elemani silmek
-console.log(items)
-
-items.shift (5)
-console.log(items)  //* ilk elemani cikarmak listeden
-
-
-// ? Arryin icerisndeki bilgiyi degistirmek
-
-items [0]  = 90  //* 0 . elemani degistirdik
-
-console.log(items)
-
-items[items.length-1] = 1000 //* sonuncu elemani degistirmek
 console.log(items)
