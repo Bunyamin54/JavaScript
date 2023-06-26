@@ -88,11 +88,15 @@
 // }
 
 
-// * for Each 
+// * for Each  Array icerisnde kullaniyor. 
 
-const PRODUCTS = ["laptop", "phone", "Spekaer", "Desktop", "Server"]
+// const PRODUCTS = ["laptop", "phone", "Spekaer", "Desktop", "Server"]
 
 
-PRODUCTS.forEach((product, index, array) => array [index] = `${product.toUpperCase()}`)
+// PRODUCTS.forEach((product, index, array) => array [index] = `${product.toUpperCase()}`)
 
-console.log(PRODUCTS) 
+// console.log(PRODUCTS) 
+
+
+
+// * filter array
