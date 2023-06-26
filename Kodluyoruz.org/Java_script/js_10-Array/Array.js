@@ -48,3 +48,12 @@ console.log(items)
 items.shift (5)
 console.log(items)  //* ilk elemani cikarmak listeden
 
+
+// ? Arryin icerisndeki bilgiyi degistirmek
+
+items [0]  = 90  //* 0 . elemani degistirdik
+
+console.log(items)
+
+items[items.length-1] = 1000 //* sonuncu elemani degistirmek
+console.log(items)
