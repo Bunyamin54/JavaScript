@@ -113,3 +113,11 @@ console.log(es6Items)
 let allUsers = [...femaleUsers, ...maleUsers]
 
 console.log(allUsers)
+
+// * stringe cevirmek  toString veya join
+
+console.log(allUsers.toString())
+
+console.log(allUsers.join( " --- ")) //* join yontemi ile icerisine birsey atamak
+
+
