@@ -49,7 +49,7 @@
 // console.log(items)  //* ilk elemani cikarmak listeden
 
 
-// // ? Arryin icerisndeki bilgiyi degistirmek
+// ? Arryin icerisndeki bilgiyi degistirmek
 
 // items [0]  = 90  //* 0 . elemani degistirdik
 
@@ -60,71 +60,71 @@
 
 //  * Array icinde array eklemek
 
-let items = [1, 2 ,3 ,4 ,5]
+// let items = [1, 2 ,3 ,4 ,5]
 
-let femaleUsers = ["Ayse", "Hulya" , "Merve"]
-let maleUsers = ["Ahmet", "Hasan", " Mehmet"]
+// let femaleUsers = ["Ayse", "Hulya" , "Merve"]
+// let maleUsers = ["Ahmet", "Hasan", " Mehmet"]
 
-items.unshift(femaleUsers)  //*  basa ekleme
+// items.unshift(femaleUsers)  //*  basa ekleme
 
-console.log(items)
+// console.log(items)
 
-items.push(maleUsers)  //* sona ekleme
+// items.push(maleUsers)  //* sona ekleme
 
-console.log(items)
+// console.log(items)
 
-console.log(items.length) //* arraylar oge gibi tutluyor
+// console.log(items.length) //* arraylar oge gibi tutluyor
 
 
 // * ilk ogeye ulasmak
-console.log(items[0].length)
-console.log(items[0][0])
+// console.log(items[0].length)
+// console.log(items[0][0])
 
-let newsItems =items.splice(1, 5) //*posisyon verme ve ogelere ayrimak
-console.log(newsItems)
+// let newsItems =items.splice(1, 5) //*posisyon verme ve ogelere ayrimak
+// console.log(newsItems)
 
-console.log(items)
+// console.log(items)
 
 // * array icewrsindeki ogenin index bilgisini bulmak
-items.unshift("lorem")
-items.push("ipsum")
+// items.unshift("lorem")
+// items.push("ipsum")
 
-console.log(items.indexOf("ipsum"))
+// console.log(items.indexOf("ipsum"))
 
 // * Array kopyalamak
 
-let copyItems = items
-console.log(items)
+// let copyItems = items
+// console.log(items)
 
-copyItems.pop()  //* son ogeyi cikarmak bu yontemle kopy yapilamaz
-console.log(copyItems)
+// copyItems.pop()  //* son ogeyi cikarmak bu yontemle kopy yapilamaz
+// console.log(copyItems)
 
-copyItems = items.slice()  //* kopyalama yapar
+// copyItems = items.slice()  //* kopyalama yapar
 
-console.log(copyItems)
+// console.log(copyItems)
 
-let es6Items = [...items]  //* .... spread methodu eklemek yapar
+// let es6Items = [...items]  //* .... spread methodu eklemek yapar
 
-console.log(es6Items)
+// console.log(es6Items)
 
 
 // * birden fazla arrayi birlestirmek  Spread methodu  ...
 
-let allUsers = [...femaleUsers, ...maleUsers]
+// let allUsers = [...femaleUsers, ...maleUsers]
 
-console.log(allUsers)
+// console.log(allUsers)
 
 // * stringe cevirmek  toString veya join
 
-console.log(allUsers.toString())
+// console.log(allUsers.toString())
 
-console.log(allUsers.join( " --- ")) //* join yontemi ile icerisine birsey atamak
+// console.log(allUsers.join( " --- ")) //* join yontemi ile icerisine birsey atamak
 
 
 // * splice eklemek
 
-allUsers.splice(allUsers.length -1, 0, "Melisa")
+// allUsers.splice(allUsers.length -1, 0, "Melisa")
 
-console.log(allUsers)
+// console.log(allUsers)
 
-allUsers.splice(Math.floor (allUsers.length / 2), 0, "Lorem")  //* bir ogeyi index bilgisine gore eklemek.
+// allUsers.splice(Math.floor (allUsers.length / 2), 0, "Lorem")  //* bir ogeyi index bilgisine gore eklemek.
