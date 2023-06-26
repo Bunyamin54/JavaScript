@@ -4,10 +4,14 @@
 
 let users =["Lorem", "Ipsum", "Dolar"]
 
+const userListDOM = document.querySelector('#userList')
 
 for (index = 0 ; index < users.length ; index++) {
 
-    console.log(users [index])
+    const liDOM = document.createElement('li')
+    liDOM.innerHTML = users[index]
+    userListDOM.appendChild(liDOM)
+
 }
 
 // for (let index = 0 ; index < 10; index ++) {
