@@ -102,3 +102,14 @@ console.log(copyItems)
 copyItems = items.slice()  //* kopyalama yapar
 
 console.log(copyItems)
+
+let es6Items = [...items]  //* .... spread methodu eklemek yapar
+
+console.log(es6Items)
+
+
+// * birden fazla arrayi birlestirmek  Spread methodu  ...
+
+let allUsers = [...femaleUsers, ...maleUsers]
+
+console.log(allUsers)
