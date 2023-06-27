@@ -17,7 +17,5 @@ let laptop1 = {
 
     brand : "apple",
     model : "MacBokk Pro",
-
-
-
 }
+console.log(laptop1)
