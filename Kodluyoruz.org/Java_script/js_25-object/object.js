@@ -18,4 +18,30 @@ let laptop1 = {
     brand : "apple",
     model : "MacBokk Pro",
 }
+console.log(laptop1.brand)  //* dot notasyonu ile ulasma
+
+console.log(laptop1.model)
+
+// * anahtar bilgisine yeni deger eklemek
+
+laptop1.brand = "Mac"  //* bilgi degistirmek
+
 console.log(laptop1)
+
+
+
+// * yeni bilgi eklmek
+
+laptop1.version = "10.15.7"
+
+// * anahtar bilgisine ulasmak
+
+keys = Object.keys(laptop1)
+
+keys.forEach(item => {
+    console.log(item)
+})
+
+// * value bilgisine ulasmak
+
+console.log(Object.values(laptop1))
