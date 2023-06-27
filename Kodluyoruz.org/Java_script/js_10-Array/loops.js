@@ -99,4 +99,14 @@
 
 
 
-// * filter array
+// * filter array  product git bi filtre uygula ve bir funksiyon calsitir ve lengti 5 den fazla olanlari sec
+
+//* const new_Produsts = produsct.filter (item => item.length > 5) gibi 
+
+// * map array
+
+const users = ["ayse" , "mehmet", "tugce", "aksel"]
+
+const new_users = users.map (user => user.toUpperCase())
+
+console.log(new_users)
