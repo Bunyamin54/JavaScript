@@ -12,36 +12,48 @@
 
 // console.log(item1)
 
-let laptop1 = {
+// let laptop1 = {
 // ** virgul ve iki nokta: koyariz
 
-    brand : "apple",
-    model : "MacBokk Pro",
-}
-console.log(laptop1.brand)  //* dot notasyonu ile ulasma
+//     brand : "apple",
+//     model : "MacBokk Pro",
+// }
+// console.log(laptop1.brand)  //* dot notasyonu ile ulasma
 
-console.log(laptop1.model)
+// console.log(laptop1.model)
 
 // * anahtar bilgisine yeni deger eklemek
 
-laptop1.brand = "Mac"  //* bilgi degistirmek
+// laptop1.brand = "Mac"  //* bilgi degistirmek
 
-console.log(laptop1)
+// console.log(laptop1)
 
 
 
 // * yeni bilgi eklmek
 
-laptop1.version = "10.15.7"
+// laptop1.version = "10.15.7"
 
 // * anahtar bilgisine ulasmak
 
-keys = Object.keys(laptop1)
+// keys = Object.keys(laptop1)
 
-keys.forEach(item => {
-    console.log(item)
-})
+// keys.forEach(item => {
+//     console.log(item)
+// })
 
 // * value bilgisine ulasmak
 
-console.log(Object.values(laptop1))
+// console.log(Object.values(laptop1))
+
+// * nesnelere method eklemek
+
+let user1 = {
+
+    firstName: "Bilgin",
+    lastName: "Uzman",
+    score : [1,2,3,4],
+    isActive :true
+}
+
+console.log(user1)
